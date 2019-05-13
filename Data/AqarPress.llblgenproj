@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.4 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.4" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="Aya Reda" />
+    <Property Name="ProjectName" Value="AqarPress" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value=".\" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET 4.5.2" />
+        <PresetName Value="SD.Presets.Adapter.General" />
+        <RootNamespace Value="AqarPress.Data" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Deprecated" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.NET45x" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Area" ObjectID="7dc81e98-5a10-499a-9968-e179025fd183">
+        <Fields>
+          <Field Name="ArabicName" Type="string" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Category" ObjectID="93d9f6ad-bfe6-44c3-9679-13b8476e9a5a">
+        <Fields>
+          <Field Name="ArabicName" Type="string" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Developer" ObjectID="5d5c8cba-6709-46da-9af5-341cfe3fe108">
+        <Fields>
+          <Field Name="ArabicName" Type="string" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+          <Field Name="Path" Type="string" MaxLength="100" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Project" ObjectID="f52e45ef-bdf9-4235-8592-a601e00f79ec">
+        <Fields>
+          <Field Name="ArabicName" Type="string" MaxLength="500" />
+          <Field Name="CategoryId" Type="int" Precision="10" />
+          <Field Name="DateCreated" Type="datetime" />
+          <Field Name="DeveloperId" Type="int" Precision="10" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsActive" Type="bool" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+          <Field Name="Path" Type="string" MaxLength="100" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="ProjectDiscussion" ObjectID="d7e4a971-5e1d-4b2a-b2f1-be0ecceb9faf">
+        <Fields>
+          <Field Name="CommenterId" Type="int" Precision="10" />
+          <Field Name="DateCreated" Type="datetime" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="MessageBody" Type="string" MaxLength="500" />
+          <Field Name="ProjectId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="ProjectSubCategoryTable" ObjectID="559591cc-aa56-4dca-915a-12837a3e206c">
+        <Fields>
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="ProjectId" Type="int" Precision="10" />
+          <Field Name="SubCategoryId" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Role" ObjectID="e0a1f24a-1a46-426d-9acb-738b33fa527e">
+        <Fields>
+          <Field Name="Id" Type="int" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="SubCategory" ObjectID="2659b184-6a90-4024-8626-37820c28aa0a">
+        <Fields>
+          <Field Name="ArabicName" Type="string" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="User" ObjectID="ada9c4ec-d0e4-4d0e-aa6d-d271cbb99e57">
+        <Fields>
+          <Field Name="DateCreated" Type="datetime" />
+          <Field Name="DeviceToken" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="Id" Type="int" Precision="10" IsPrimaryKey="true" />
+          <Field Name="LastLoginDate" Type="datetime" IsOptional="true" />
+          <Field Name="MobilePhone" Type="string" MaxLength="50" />
+          <Field Name="Name" Type="string" MaxLength="500" />
+          <Field Name="Password" Type="string" MaxLength="500" />
+          <Field Name="RoleId" Type="int" Precision="10" IsAutoCreated="true" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships>
+      <NormalRelationship Name="Project.Category-Category.Projects" Start=":Project" End=":Category" StartNavigator="Category" EndNavigator="Projects" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CategoryId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="Project.Developer-Developer.Projects" Start=":Project" End=":Developer" StartNavigator="Developer" EndNavigator="Projects" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="DeveloperId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="ProjectDiscussion.Project-Project.ProjectDiscussions" Start=":ProjectDiscussion" End=":Project" StartNavigator="Project" EndNavigator="ProjectDiscussions" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ProjectId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="ProjectDiscussion.User-User.ProjectDiscussions" Start=":ProjectDiscussion" End=":User" StartNavigator="User" EndNavigator="ProjectDiscussions" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="CommenterId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="ProjectSubCategoryTable.Project-Project.ProjectSubCategoryTables" Start=":ProjectSubCategoryTable" End=":Project" StartNavigator="Project" EndNavigator="ProjectSubCategoryTables" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ProjectId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="ProjectSubCategoryTable.SubCategory-SubCategory.ProjectSubCategoryTables" Start=":ProjectSubCategoryTable" End=":SubCategory" StartNavigator="SubCategory" EndNavigator="ProjectSubCategoryTables" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="SubCategoryId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+      <NormalRelationship Name="User.Role-Role.Users" Start=":User" End=":Role" StartNavigator="Role" EndNavigator="Users" Type="4">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="RoleId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
+    </Relationships>
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="DESKTOP-1RNONJG\AYAMSSQLSERVER" />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UseWindowsAuthentication" Value="true" />
+        <ConnectionElement Name="UserID" Value="" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="AqarPress">
+          <Schemas>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2019-05-13T20:55:43.5342279Z">
+              <Tables>
+                <Table Name="Area">
+                  <PkConstraintName Name="PK_Area" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="arabic_name" Ordinal="3" DbType="12" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="Category">
+                  <PkConstraintName Name="PK_Category" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="arabic_name" Ordinal="3" DbType="12" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="Developer">
+                  <PkConstraintName Name="PK_Developer" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="arabic_name" Ordinal="3" DbType="12" Length="500" />
+                    <Field Name="path" Ordinal="4" DbType="12" Length="100" />
+                    <Field Name="is_active" Ordinal="5" HasDefaultValue="true" DefaultValue="(1)" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="Project">
+                  <PkConstraintName Name="PK_Project" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="arabic_name" Ordinal="3" DbType="12" Length="500" />
+                    <Field Name="developer_id" Ordinal="4" DbType="8" Precision="10" />
+                    <Field Name="category_id" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="path" Ordinal="6" DbType="12" Length="100" />
+                    <Field Name="date_created" Ordinal="7" HasDefaultValue="true" DefaultValue="getutcdate()" DbType="4" />
+                    <Field Name="is_active" Ordinal="8" HasDefaultValue="true" DefaultValue="(1)" DbType="2" />
+                  </Fields>
+                </Table>
+                <Table Name="ProjectDiscussion">
+                  <PkConstraintName Name="PK_ProjectDiscussion" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="message_body" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="commenter_id" Ordinal="3" DbType="8" Precision="10" />
+                    <Field Name="project_id" Ordinal="4" DbType="8" Precision="10" />
+                    <Field Name="date_created" Ordinal="5" HasDefaultValue="true" DefaultValue="getutcdate()" DbType="4" />
+                  </Fields>
+                </Table>
+                <Table Name="ProjectSubCategoryTable">
+                  <PkConstraintName Name="PK_ProjectSubCategoryTable" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="project_id" Ordinal="2" DbType="8" Precision="10" />
+                    <Field Name="sub_category_id" Ordinal="3" DbType="8" Precision="10" />
+                  </Fields>
+                </Table>
+                <Table Name="Role">
+                  <PkConstraintName Name="PK_Role" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="SubCategory">
+                  <PkConstraintName Name="PK_SubCategory" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="arabic_name" Ordinal="3" DbType="12" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="User">
+                  <PkConstraintName Name="PK_User" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="name" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="mobile_phone" Ordinal="3" DbType="12" Length="50" />
+                    <Field Name="password" Ordinal="4" DbType="12" Length="500" />
+                    <Field Name="role_id" Ordinal="5" DbType="8" Precision="10" />
+                    <Field Name="device_token" Ordinal="6" IsOptional="true" DbType="12" Length="100" />
+                    <Field Name="date_created" Ordinal="7" HasDefaultValue="true" DefaultValue="getutcdate()" DbType="4" />
+                    <Field Name="last_login_date" Ordinal="8" HasDefaultValue="true" DefaultValue="getutcdate()" DbType="4" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+          </Schemas>
+          <ForeignKeyConstraints>
+            <ForeignKeyConstraint Name="dbo:Project:FK_Project_category_id_Category_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Category:id" FkField="dbo:Project:category_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:Project:FK_Project_developer_id_Developer_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Developer:id" FkField="dbo:Project:developer_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:ProjectDiscussion:FK_ProjectDiscussion_commenter_id_User_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:User:id" FkField="dbo:ProjectDiscussion:commenter_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:ProjectDiscussion:FK_ProjectDiscussion_project_id_Project_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Project:id" FkField="dbo:ProjectDiscussion:project_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:ProjectSubCategoryTable:FK_ProjectSubCategoryTable_project_id_Project_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Project:id" FkField="dbo:ProjectSubCategoryTable:project_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:ProjectSubCategoryTable:FK_ProjectSubCategoryTable_sub_category_id_SubCategory_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:SubCategory:id" FkField="dbo:ProjectSubCategoryTable:sub_category_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+            <ForeignKeyConstraint Name="dbo:User:FK_User_role_id_Role_id">
+              <FieldPairs>
+                <FieldPair PkField="dbo:Role:id" FkField="dbo:User:role_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
+          </ForeignKeyConstraints>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings>
+        <EntityMapping EntityName=":Area" TargetName="AqarPress:dbo:Area">
+          <FieldMappings>
+            <FieldMapping FieldName="ArabicName" TargetFieldName="arabic_name" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Category" TargetName="AqarPress:dbo:Category">
+          <FieldMappings>
+            <FieldMapping FieldName="ArabicName" TargetFieldName="arabic_name" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Developer" TargetName="AqarPress:dbo:Developer">
+          <FieldMappings>
+            <FieldMapping FieldName="ArabicName" TargetFieldName="arabic_name" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="is_active" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Path" TargetFieldName="path" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Project" TargetName="AqarPress:dbo:Project">
+          <FieldMappings>
+            <FieldMapping FieldName="ArabicName" TargetFieldName="arabic_name" />
+            <FieldMapping FieldName="CategoryId" TargetFieldName="category_id" />
+            <FieldMapping FieldName="DateCreated" TargetFieldName="date_created" />
+            <FieldMapping FieldName="DeveloperId" TargetFieldName="developer_id" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="is_active" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Path" TargetFieldName="path" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":ProjectDiscussion" TargetName="AqarPress:dbo:ProjectDiscussion">
+          <FieldMappings>
+            <FieldMapping FieldName="CommenterId" TargetFieldName="commenter_id" />
+            <FieldMapping FieldName="DateCreated" TargetFieldName="date_created" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="MessageBody" TargetFieldName="message_body" />
+            <FieldMapping FieldName="ProjectId" TargetFieldName="project_id" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":ProjectSubCategoryTable" TargetName="AqarPress:dbo:ProjectSubCategoryTable">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="ProjectId" TargetFieldName="project_id" />
+            <FieldMapping FieldName="SubCategoryId" TargetFieldName="sub_category_id" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Role" TargetName="AqarPress:dbo:Role">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":SubCategory" TargetName="AqarPress:dbo:SubCategory">
+          <FieldMappings>
+            <FieldMapping FieldName="ArabicName" TargetFieldName="arabic_name" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":User" TargetName="AqarPress:dbo:User">
+          <FieldMappings>
+            <FieldMapping FieldName="DateCreated" TargetFieldName="date_created" />
+            <FieldMapping FieldName="DeviceToken" TargetFieldName="device_token" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="LastLoginDate" TargetFieldName="last_login_date" />
+            <FieldMapping FieldName="MobilePhone" TargetFieldName="mobile_phone" />
+            <FieldMapping FieldName="Name" TargetFieldName="name" />
+            <FieldMapping FieldName="Password" TargetFieldName="password" />
+            <FieldMapping FieldName="RoleId" TargetFieldName="role_id" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings />
+      <SPCallMappings />
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+  <DerivedModels>
+    <DerivedModel Name="Edit" ObjectID="ba67575d-5fd8-48af-aa34-2e7b3c0251cf" TargetFrameworkName="DTO Class Model" UseLegacyDefaults="false">
+      <CodeGenerationMetaDataDefaults>
+        <TargetElement Type="32768">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="Serializable" />
+              <Attribute Value="DataContract" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="65536">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="Serializable" />
+              <Attribute Value="DataContract" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="131072">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="DataMember" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="262144">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="DataMember" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="524288">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="DataMember" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+      </CodeGenerationMetaDataDefaults>
+      <Settings>
+        <Property Name="DerivedElementClassNameSuffix" Value="" />
+        <Property Name="PrefixDenormalizedFieldsWithNavigatorName" Value="true" />
+      </Settings>
+      <CodeGenerationCyclePreferences OutputType="3">
+        <LastUsedPreferences>
+          <DestinationRootFolder Value=".\" />
+          <FrameworkName Value="DTO Class Model" />
+          <LanguageName Value="C#" />
+          <PlatformName Value=".NET 4.5.2" />
+          <PresetName Value="SD.DTOClasses.ReadWriteDTOs" />
+          <RootNamespace Value="AqarPress.Edit" />
+          <TemplateGroup Value="General" />
+          <TemplateBindings>
+            <Binding Name="SD.DTOClassModel" />
+            <Binding Name="SD.TemplateBindings.General" />
+          </TemplateBindings>
+        </LastUsedPreferences>
+      </CodeGenerationCyclePreferences>
+      <Documents>
+        <Document Name="User">
+          <RootEntity Entity=":User" />
+          <Fields>
+            <Field Name="DeviceToken">
+              <EntityField Name="DeviceToken" />
+            </Field>
+            <Field Name="Id">
+              <EntityField Name="Id" />
+            </Field>
+            <Field Name="LastLoginDate">
+              <EntityField Name="LastLoginDate" />
+            </Field>
+            <Field Name="MobilePhone">
+              <EntityField Name="MobilePhone" />
+            </Field>
+            <Field Name="Name">
+              <EntityField Name="Name" />
+            </Field>
+            <Field Name="Password">
+              <EntityField Name="Password" />
+            </Field>
+            <Field Name="RoleId">
+              <EntityField Name="RoleId" />
+            </Field>
+          </Fields>
+        </Document>
+      </Documents>
+    </DerivedModel>
+    <DerivedModel Name="View" ObjectID="88b0faed-69d6-4242-bb3a-4061a028a845" TargetFrameworkName="DTO Class Model" UseLegacyDefaults="false">
+      <CodeGenerationMetaDataDefaults>
+        <TargetElement Type="32768">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="Serializable" />
+              <Attribute Value="DataContract" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="65536">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="Serializable" />
+              <Attribute Value="DataContract" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="131072">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="DataMember" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="262144">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="DataMember" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+        <TargetElement Type="524288">
+          <Defaults>
+            <Attributes>
+              <Attribute Value="DataMember" />
+            </Attributes>
+          </Defaults>
+        </TargetElement>
+      </CodeGenerationMetaDataDefaults>
+      <Settings>
+        <Property Name="DerivedElementClassNameSuffix" Value="" />
+        <Property Name="PrefixDenormalizedFieldsWithNavigatorName" Value="true" />
+      </Settings>
+      <CodeGenerationCyclePreferences OutputType="3">
+        <LastUsedPreferences>
+          <DestinationRootFolder Value=".\" />
+          <FrameworkName Value="DTO Class Model" />
+          <LanguageName Value="C#" />
+          <PlatformName Value=".NET 4.5.2" />
+          <PresetName Value="SD.DTOClasses.ReadOnlyDTOs" />
+          <RootNamespace Value="AqarPress.View" />
+          <TemplateGroup Value="General" />
+          <TemplateBindings>
+            <Binding Name="SD.DTOClassModel" />
+            <Binding Name="SD.TemplateBindings.General" />
+          </TemplateBindings>
+        </LastUsedPreferences>
+      </CodeGenerationCyclePreferences>
+      <Documents>
+        <Document Name="ProjectView">
+          <RootEntity Entity=":Project" />
+          <Fields>
+            <Field Name="ArabicName">
+              <EntityField Name="ArabicName" />
+            </Field>
+            <Field Name="CategoryId">
+              <EntityField Name="CategoryId" />
+            </Field>
+            <Field Name="DateCreated">
+              <EntityField Name="DateCreated" />
+            </Field>
+            <Field Name="DeveloperId">
+              <EntityField Name="DeveloperId" />
+            </Field>
+            <Field Name="Id">
+              <EntityField Name="Id" />
+            </Field>
+            <Field Name="IsActive">
+              <EntityField Name="IsActive" />
+            </Field>
+            <Field Name="Name">
+              <EntityField Name="Name" />
+            </Field>
+            <Field Name="Path">
+              <EntityField Name="Path" />
+            </Field>
+          </Fields>
+        </Document>
+        <Document Name="UserView">
+          <RootEntity Entity=":User" />
+          <Fields>
+            <Field Name="Id">
+              <EntityField Name="Id" />
+            </Field>
+            <Field Name="LastLoginDate">
+              <EntityField Name="LastLoginDate" />
+            </Field>
+            <Field Name="MobilePhone">
+              <EntityField Name="MobilePhone" />
+            </Field>
+            <Field Name="Name">
+              <EntityField Name="Name" />
+            </Field>
+            <Field Name="Password">
+              <EntityField Name="Password" />
+            </Field>
+            <Field Name="RoleId">
+              <EntityField Name="RoleId" />
+            </Field>
+          </Fields>
+        </Document>
+      </Documents>
+    </DerivedModel>
+  </DerivedModels>
+</Project>
