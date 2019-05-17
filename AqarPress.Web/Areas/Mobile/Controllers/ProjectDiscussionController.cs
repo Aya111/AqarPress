@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace AqarPress.web.Areas.Mobile.Controllers
 {
     [Produces("application/json")]
-    [Route("api/1/Duscussion")]
+    [Route("api/1/ProjectDiscussion")]
     [ApiController]
     [TypeFilter(typeof(RequireAPISession))]
     public class ProjectDiscussionController : ControllerBase

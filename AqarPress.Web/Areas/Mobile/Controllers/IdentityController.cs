@@ -32,7 +32,7 @@ namespace AqarPress.web.Areas.Mobile.Controllers
             if (loginResult.IsFalse)
             {
                 Log.Error(loginResult.Message);
-                return BadRequest();
+                return BadRequest(loginResult.Message);
             }
 
             var reply = new UserLoginModel.Reply(loginResult.Value.User);

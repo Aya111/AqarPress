@@ -1,11 +1,12 @@
 ﻿using AqarPress.Core.APIModels;
 using AqarPress.Core.Repositories;
+using AqarPress.Web.Attributes;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using SD.LLBLGen.Pro.ORMSupportClasses;
-using AqarPress.Web.Attributes;
+using Imager = AqarPress.Web.Areas.Mobile.Controllers.MediaController;
+
 
 namespace AqarPress.web.Mobile.Controllers
 {
@@ -31,12 +32,7 @@ namespace AqarPress.web.Mobile.Controllers
                 return NotFound();
             }
 
-            var reply = result.Select(r => new Developer
-            {
-                Id = r.Id,
-                Name = r.Name,
-                Path = r.Path
-            });
+            var reply = result.Select(r => new Developer(r, t => Imager.GenerateDeveloperImageUrl(Request, r.Path)));
 
             return Ok(reply);
         }

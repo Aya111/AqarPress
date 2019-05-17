@@ -359,44 +359,6 @@
             associated private key. The caller should treat this identifier as an
             opaque blob and should not try to parse it.</returns>
         </member>
-        <member name="T:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature">
-            <summary>
-            Used to query, grant, and withdraw user consent regarding the storage of user
-            information related to site activity and functionality.
-            </summary>
-        </member>
-        <member name="P:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature.IsConsentNeeded">
-            <summary>
-            Indicates if consent is required for the given request.
-            </summary>
-        </member>
-        <member name="P:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature.HasConsent">
-            <summary>
-            Indicates if consent was given.
-            </summary>
-        </member>
-        <member name="P:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature.CanTrack">
-            <summary>
-            Indicates either if consent has been given or if consent is not required.
-            </summary>
-        </member>
-        <member name="M:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature.GrantConsent">
-            <summary>
-            Grants consent for this request. If the response has not yet started then
-            this will also grant consent for future requests.
-            </summary>
-        </member>
-        <member name="M:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature.WithdrawConsent">
-            <summary>
-            Withdraws consent for this request. If the response has not yet started then
-            this will also withdraw consent for future requests.
-            </summary>
-        </member>
-        <member name="M:Microsoft.AspNetCore.Http.Features.ITrackingConsentFeature.CreateConsentCookie">
-            <summary>
-            Creates a consent cookie for use when granting consent from a javascript client.
-            </summary>
-        </member>
         <member name="T:Microsoft.AspNetCore.Http.CookieOptions">
             <summary>
             Options used to create a new cookie.
@@ -442,18 +404,6 @@
             Gets or sets a value that indicates whether a cookie is accessible by client-side script.
             </summary>
             <returns>true if a cookie must not be accessible by client-side script; otherwise, false.</returns>
-        </member>
-        <member name="P:Microsoft.AspNetCore.Http.CookieOptions.MaxAge">
-            <summary>
-            Gets or sets the max-age for the cookie.
-            </summary>
-            <returns>The max-age date and time for the cookie.</returns>
-        </member>
-        <member name="P:Microsoft.AspNetCore.Http.CookieOptions.IsEssential">
-            <summary>
-            Indicates if this cookie is essential for the application to function correctly. If true then
-            consent policy checks may be bypassed. The default value is false.
-            </summary>
         </member>
         <member name="T:Microsoft.AspNetCore.Http.IFormCollection">
             <summary>
@@ -567,7 +517,7 @@
         </member>
         <member name="P:Microsoft.AspNetCore.Http.IFormFile.Name">
             <summary>
-            Gets the form field name from the Content-Disposition header.
+            Gets the name from the Content-Disposition header.
             </summary>
         </member>
         <member name="P:Microsoft.AspNetCore.Http.IFormFile.FileName">

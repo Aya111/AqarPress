@@ -1,23 +1,21 @@
 ﻿using AqarPress.Core.Identity;
+using AqarPress.Core.Repositories;
 using AqarPress.Data.Linq;
-using System;
-using System.Threading.Tasks;
-using System.Linq;
 using AqarPress.View.DtoClasses;
 using AqarPress.View.Persistence;
-using SD.LLBLGen.Pro.LinqSupportClasses;
-using System.Web.Helpers;
-using Microsoft.Extensions.Caching.Distributed;
-using System.Net.Http;
-using AqarPress.Core.Repositories;
-using Serilog;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Caching.Distributed;
+using SD.LLBLGen.Pro.LinqSupportClasses;
+using Serilog;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Web.Helpers;
 
 namespace AqarPress.Core
 {
     public class IdentityService : ICreateInScope
     {
-
         private IDistributedCache _cache;
         private UserRepository _userRepository;
 
@@ -26,50 +24,57 @@ namespace AqarPress.Core
             _userRepository = userRepository;
             _cache = cache;
         }
+
         private string GetUserSessionKey(Guid id) => $"Scops_{id.ToString().Replace("-", "_")}";
 
         public async Task<Result<APISession>> Login(string mobilePhone, string password, string deviceToken)
         {
             using (var adapter = Adapter.Create())
             {
-                var meta = new LinqMetaData(adapter);
-
-                var query = from u in meta.User
-                            where u.MobilePhone == mobilePhone
-                            select u;
-
-
-                var result = await query.ProjectToUserView().SingleOrDefaultAsync();
-
-                bool userExist;
-
-                if (result == null)
+                try
                 {
-                    userExist = false;
-                }
+                    var meta = new LinqMetaData(adapter);
 
-                userExist = true;
+                    var query = from u in meta.User
+                                where u.MobilePhone == mobilePhone
+                                select u;
 
+                    var result = await query.ProjectToUserView().SingleOrDefaultAsync();
 
-                if (userExist == true)
-                {
-                    var verifiedPassword = Crypto.VerifyHashedPassword(result.Password, password);
-                    if (verifiedPassword)
+                    bool userExist;
+
+                    if (result == null)
                     {
-                        var session = await AddSession(result);
-                        await _userRepository.ChangeLoginDataForMobileUsers(result, deviceToken);
+                        userExist = false;
+                    }
 
-                        return Result<APISession>.True(session);
+                    userExist = true;
+
+                    if (userExist == true)
+                    {
+                        var verifiedPassword = Crypto.VerifyHashedPassword(result.Password, password);
+                        if (verifiedPassword)
+                        {
+                            var session = await AddSession(result);
+                            await _userRepository.ChangeLoginDataForMobileUsers(result, deviceToken);
+
+                            return Result<APISession>.True(session);
+                        }
+                        else
+                        {
+                            Log.Debug("Password is not true");
+                            return Result<APISession>.False("Invalid Password.");
+                        }
                     }
                     else
                     {
-                        Log.Debug("Password is not true");
-                        return Result<APISession>.False("Invalid Password.");
+                        return Result<APISession>.False("User is not found.");
                     }
                 }
-                else
+                catch (Exception ex)
                 {
-                    return Result<APISession>.False("User is not found.");
+                    Log.Error(ex, string.Empty);
+                    return Result<APISession>.False(ex.Message);
                 }
             }
         }

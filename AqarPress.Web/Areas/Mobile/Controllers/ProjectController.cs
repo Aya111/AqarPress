@@ -1,4 +1,5 @@
 ﻿using AqarPress.Core;
+using AqarPress.Core.APIModels;
 using AqarPress.Core.Repositories;
 using AqarPress.View.DtoClasses;
 using AqarPress.Web.Attributes;
@@ -6,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Imager = AqarPress.Web.Areas.Mobile.Controllers.MediaController;
 
 namespace AqarPress.web.Areas.Mobile.Controllers
 {
@@ -25,7 +27,7 @@ namespace AqarPress.web.Areas.Mobile.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<ProjectView>>> GetDeveloperProjects(int developerId)
+        public async Task<ActionResult<List<Project>>> GetDeveloperProjects(int developerId)
         {
             if (developerId == 0)
             {
@@ -39,16 +41,7 @@ namespace AqarPress.web.Areas.Mobile.Controllers
                 return NotFound();
             }
 
-            var reply = result.Select(p => new ProjectView
-            {
-                Id = p.Id,
-                Name = p.Name,
-                DeveloperId = p.DeveloperId,
-                DateCreated = p.DateCreated,
-                //ArabicName = p.ArabicName,
-                CategoryId = p.CategoryId,
-                Path = p.Path
-            });
+            var reply = result.Select(r => new Project(r, t => Imager.GenerateProjectImageUrl(Request, r.Path)));
 
             return Ok(reply);
         }

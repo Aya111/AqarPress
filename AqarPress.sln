@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPress.View.Persistence"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPress.Edit.Persistence", "Data\AqarPress.Edit.Persistence\AqarPress.Edit.Persistence.csproj", "{8FE7E5C7-555D-4A99-9BC5-843DD20AA846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPress.Core", "AqarPress.Core\AqarPress.Core.csproj", "{F7AE976F-56A2-441A-89DE-3EC363DD3D82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AqarPress.Core", "AqarPress.Core\AqarPress.Core.csproj", "{57A18E66-78A9-4617-8DC3-E8AD88052F12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,10 +61,10 @@ Global
 		{8FE7E5C7-555D-4A99-9BC5-843DD20AA846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FE7E5C7-555D-4A99-9BC5-843DD20AA846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FE7E5C7-555D-4A99-9BC5-843DD20AA846}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7AE976F-56A2-441A-89DE-3EC363DD3D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7AE976F-56A2-441A-89DE-3EC363DD3D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7AE976F-56A2-441A-89DE-3EC363DD3D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7AE976F-56A2-441A-89DE-3EC363DD3D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A18E66-78A9-4617-8DC3-E8AD88052F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A18E66-78A9-4617-8DC3-E8AD88052F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A18E66-78A9-4617-8DC3-E8AD88052F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A18E66-78A9-4617-8DC3-E8AD88052F12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
