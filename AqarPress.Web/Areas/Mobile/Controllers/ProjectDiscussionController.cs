@@ -1,4 +1,5 @@
-﻿using AqarPress.Core.APIModels;
+﻿using AqarPress.Core;
+using AqarPress.Core.APIModels;
 using AqarPress.Core.Repositories;
 using AqarPress.Edit.DtoClasses;
 using AqarPress.Web.Attributes;
@@ -16,10 +17,12 @@ namespace AqarPress.web.Areas.Mobile.Controllers
     public class ProjectDiscussionController : ControllerBase
     {
         private readonly ProjectDiscussionRepository _projectDiscussionRepository;
+        private readonly IdentityService _identityService;
 
-        public ProjectDiscussionController(ProjectDiscussionRepository projectDiscussionRepository)
+        public ProjectDiscussionController(ProjectDiscussionRepository projectDiscussionRepository, IdentityService identityService)
         {
             _projectDiscussionRepository = projectDiscussionRepository;
+            _identityService = identityService;
         }
 
         [HttpGet]
@@ -38,7 +41,8 @@ namespace AqarPress.web.Areas.Mobile.Controllers
                 MessageBody = d.MessageBody,
                 CommenterId = d.CommenterId,
                 ProjectId = d.ProjectId,
-                DateCreated = d.DateCreated
+                DateCreated = d.DateCreated,
+                CommenterName = d.User.Name
             });
 
             return Ok(reply);
@@ -47,7 +51,9 @@ namespace AqarPress.web.Areas.Mobile.Controllers
         [HttpPost, Route("AddComment")]
         public async Task<ActionResult<ProjectComment>> AddComment(ProjectComment comment)
         {
-            var result = await _projectDiscussionRepository.AddComment(comment);
+            var session = _identityService.GetUserSessionInfo(Request.HttpContext);
+
+            var result = await _projectDiscussionRepository.AddComment(comment, session);
 
             if (result.IsFalse)
             {

@@ -1,4 +1,5 @@
 ﻿using AqarPress.Core.APIModels;
+using AqarPress.Core.Identity;
 using AqarPress.Data.EntityClasses;
 using AqarPress.Data.Linq;
 using SD.LLBLGen.Pro.LinqSupportClasses;
@@ -6,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static AqarPress.Core.Prefetch;
 
 namespace AqarPress.Core.Repositories
 {
@@ -17,13 +19,13 @@ namespace AqarPress.Core.Repositories
             {
                 var meta = new LinqMetaData(adapter);
 
-                var query = await meta.ProjectDiscussion.Where(d => d.ProjectId == projectId).ToListAsync();
+                var query = await meta.ProjectDiscussion.Where(d => d.ProjectId == projectId).WithPath(new ProjectDiscussionPrefetch().Get()).ToListAsync();
 
                 return query;
             }
         }
 
-        public async Task<Result<ProjectComment>> AddComment(ProjectComment comment)
+        public async Task<Result<ProjectComment>> AddComment(ProjectComment comment, APISession session)
         {
             try
             {
@@ -32,11 +34,15 @@ namespace AqarPress.Core.Repositories
                     var commentEntity = new ProjectDiscussionEntity
                     {
                         MessageBody = comment.MessageBody,
-                        CommenterId = comment.CommenterId,
+                        CommenterId = session.UserId,
                         ProjectId = comment.ProjectId
                     };
 
                     var result = await adapter.SaveEntityAsync(commentEntity, true);
+
+                    var meta = new LinqMetaData(adapter);
+
+                    comment.CommenterName = session.User.Name;
 
                     return Result<ProjectComment>.True(comment);
                 }

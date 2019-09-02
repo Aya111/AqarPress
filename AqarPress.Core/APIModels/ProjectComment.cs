@@ -9,6 +9,8 @@ namespace AqarPress.Core.APIModels
 
         public int CommenterId { get; set; }
 
+        public string CommenterName { get; set; }
+
         public int ProjectId { get; set; }
 
         public DateTime DateCreated { get; set; }

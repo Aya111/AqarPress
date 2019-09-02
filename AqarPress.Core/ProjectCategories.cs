@@ -1,4 +1,6 @@
-﻿namespace AqarPress.Core
+﻿using System.ComponentModel;
+
+namespace AqarPress.Core
 {
     public enum ProjectCategories
     {
@@ -6,6 +8,13 @@
         Admin = 402,
         Complex = 403,
         Medical = 404,
-        Commertial = 406
+        Commercial = 406,
+
+        [Description("Office&Retail")]
+        OfficeAndRetail = 407,
+
+        [Description("Residential&Commercial")]
+        ResidentialAndCommercial = 408
+
     }
 }

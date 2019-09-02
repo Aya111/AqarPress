@@ -5,6 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Mobile\Data\**" />
+    <Compile Remove="Areas\Mobile\Models\**" />
+    <Compile Remove="Areas\Mobile\Views\**" />
+    <Content Remove="Areas\Mobile\Data\**" />
+    <Content Remove="Areas\Mobile\Models\**" />
+    <Content Remove="Areas\Mobile\Views\**" />
+    <EmbeddedResource Remove="Areas\Mobile\Data\**" />
+    <EmbeddedResource Remove="Areas\Mobile\Models\**" />
+    <EmbeddedResource Remove="Areas\Mobile\Views\**" />
+    <None Remove="Areas\Mobile\Data\**" />
+    <None Remove="Areas\Mobile\Models\**" />
+    <None Remove="Areas\Mobile\Views\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Extensions.Primitives" Version="2.1.6" />
@@ -13,12 +28,6 @@
     <PackageReference Include="SD.LLBLGen.Pro.ORMSupportClasses" Version="5.5.2" />
     <PackageReference Include="Serilog" Version="2.8.0" />
     <PackageReference Include="System.Reflection.Emit" Version="4.3.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Mobile\Data\" />
-    <Folder Include="Areas\Mobile\Models\" />
-    <Folder Include="Areas\Mobile\Views\" />
   </ItemGroup>
 
   <ItemGroup>

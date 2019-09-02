@@ -23,7 +23,9 @@ namespace AqarPress.Migration
                 .Row(new { name = ProjectCategories.Admin, arabic_name = "إداري" })
                 .Row(new { name = ProjectCategories.Complex, arabic_name = "مبنى متعدد الأغراض" })
                 .Row(new { name = ProjectCategories.Medical, arabic_name = "طبي" })
-                .Row(new { name = ProjectCategories.Commertial, arabic_name = "تجاري" });
+                .Row(new { name = ProjectCategories.Commercial, arabic_name = "تجاري" })
+                .Row(new { name = ProjectCategories.OfficeAndRetail, arabic_name ="تجاري&إداري"})
+                .Row(new { name = ProjectCategories.ResidentialAndCommercial, arabic_name = "سكنى& تجارى" });
         }
     }
 }
