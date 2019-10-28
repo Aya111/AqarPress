@@ -38,7 +38,7 @@ namespace AqarPress.Web.Areas.Mobile.Controllers
         }
 
         [Route(nameof(Developer) + "/{name}")]
-        public IActionResult Workshop(string name)
+        public IActionResult Developer(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
                 return BadRequest();

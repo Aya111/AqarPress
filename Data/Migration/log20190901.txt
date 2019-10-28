@@ -1,0 +1,791 @@
+2019-09-01 20:39:40.738 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 20:39:40.787 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 20:39:40.789 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 20:39:40.792 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 20:39:40.796 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 20:39:40.800 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 20:39:40.805 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 20:39:40.809 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 20:39:40.814 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 20:39:40.819 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 20:39:40.824 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 20:39:40.829 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 20:39:40.834 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 20:39:40.839 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 20:39:40.844 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 20:39:40.849 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 20:39:40.855 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 20:39:40.861 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 20:39:40.866 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 20:39:40.872 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 20:39:40.877 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 20:39:40.881 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 20:39:40.886 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 20:39:40.890 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 20:39:40.895 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 20:39:40.899 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:04:00.804 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:04:00.918 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:04:00.934 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:04:00.954 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:04:00.977 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:04:00.997 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:04:01.017 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:04:01.038 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:04:01.059 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:04:01.081 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:04:01.101 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:04:01.119 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:04:01.142 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:04:01.163 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:04:01.181 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:04:01.199 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:04:01.219 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:04:01.243 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:04:01.263 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:04:01.286 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:04:01.306 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:04:01.330 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:04:01.347 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:04:01.367 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:04:01.390 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:04:01.415 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:04:43.409 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:04:43.528 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:04:43.541 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:04:43.559 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:04:43.579 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:04:43.600 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:04:43.619 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:04:43.641 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:04:43.659 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:04:43.680 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:04:43.699 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:04:43.717 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:04:43.739 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:04:43.759 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:04:43.781 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:04:43.801 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:04:43.824 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:04:43.846 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:04:43.869 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:04:43.888 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:04:43.908 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:04:43.930 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:04:43.950 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:04:43.972 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:04:43.992 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:04:44.014 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:05:23.770 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:05:23.883 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:05:23.899 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:05:23.924 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:05:23.942 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:05:23.962 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:05:23.984 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:05:24.011 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:05:24.034 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:05:24.053 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:05:24.073 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:05:24.092 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:05:24.112 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:05:24.135 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:05:24.155 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:05:24.178 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:05:24.198 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:05:24.220 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:05:24.240 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:05:24.261 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:05:24.284 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:05:24.305 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:05:24.329 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:05:24.347 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:05:24.372 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:05:24.391 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:06:37.588 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:06:37.701 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:06:37.717 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:06:37.737 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:06:37.760 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:06:37.777 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:06:37.797 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:06:37.820 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:06:37.840 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:06:37.864 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:06:37.885 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:06:37.908 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:06:37.926 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:06:37.947 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:06:37.967 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:06:37.990 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:06:38.011 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:06:38.035 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:06:38.054 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:06:38.078 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:06:38.100 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:06:38.127 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:06:38.149 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:06:38.169 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:06:38.189 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:06:38.211 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:15:30.947 +02:00 [ERR] Data in row 1 is not inserted
+2019-09-01 21:15:31.058 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:15:31.074 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:15:31.085 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:15:31.101 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:15:31.117 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:15:31.132 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:15:31.149 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:15:31.166 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:15:31.187 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:15:31.203 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:15:31.218 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:15:31.234 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:15:31.254 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:15:31.270 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:15:31.286 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:15:31.301 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:15:31.317 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:15:31.334 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:15:31.349 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:15:31.365 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:15:31.381 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:15:31.398 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:15:31.414 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:15:31.430 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:15:31.446 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:15:31.462 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:16:40.727 +02:00 [ERR] Data in row 1 is not inserted
+2019-09-01 21:16:40.845 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:16:40.872 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:16:40.889 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:16:40.914 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:16:40.935 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:16:40.959 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:16:40.980 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:16:41.005 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:16:41.024 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:16:41.050 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:16:41.076 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:16:41.104 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:16:41.123 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:16:41.149 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:16:41.170 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:16:41.196 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:16:41.216 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:16:41.244 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:16:41.271 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:16:41.292 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:16:41.319 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:16:41.341 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:16:41.365 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:16:41.391 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:16:41.419 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:16:41.446 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 21:27:11.430 +02:00 [ERR] Data in row 1 is not inserted
+2019-09-01 21:27:11.549 +02:00 [ERR] Data in row 2 is not inserted
+2019-09-01 21:27:11.578 +02:00 [ERR] Data in row 3 is not inserted
+2019-09-01 21:27:11.603 +02:00 [ERR] Data in row 4 is not inserted
+2019-09-01 21:27:11.629 +02:00 [ERR] Data in row 5 is not inserted
+2019-09-01 21:27:11.657 +02:00 [ERR] Data in row 6 is not inserted
+2019-09-01 21:27:11.687 +02:00 [ERR] Data in row 7 is not inserted
+2019-09-01 21:27:11.714 +02:00 [ERR] Data in row 8 is not inserted
+2019-09-01 21:27:11.735 +02:00 [ERR] Data in row 9 is not inserted
+2019-09-01 21:27:11.761 +02:00 [ERR] Data in row 10 is not inserted
+2019-09-01 21:27:11.788 +02:00 [ERR] Data in row 11 is not inserted
+2019-09-01 21:27:11.811 +02:00 [ERR] Data in row 12 is not inserted
+2019-09-01 21:27:11.838 +02:00 [ERR] Data in row 13 is not inserted
+2019-09-01 21:27:11.867 +02:00 [ERR] Data in row 14 is not inserted
+2019-09-01 21:27:11.888 +02:00 [ERR] Data in row 15 is not inserted
+2019-09-01 21:27:11.915 +02:00 [ERR] Data in row 16 is not inserted
+2019-09-01 21:27:11.941 +02:00 [ERR] Data in row 17 is not inserted
+2019-09-01 21:27:11.961 +02:00 [ERR] Data in row 18 is not inserted
+2019-09-01 21:27:11.990 +02:00 [ERR] Data in row 19 is not inserted
+2019-09-01 21:27:12.018 +02:00 [ERR] Data in row 20 is not inserted
+2019-09-01 21:27:12.039 +02:00 [ERR] Data in row 21 is not inserted
+2019-09-01 21:27:12.068 +02:00 [ERR] Data in row 22 is not inserted
+2019-09-01 21:27:12.089 +02:00 [ERR] Data in row 23 is not inserted
+2019-09-01 21:27:12.135 +02:00 [ERR] Data in row 24 is not inserted
+2019-09-01 21:27:12.158 +02:00 [ERR] Data in row 25 is not inserted
+2019-09-01 21:27:12.187 +02:00 [ERR] Data in row 26 is not inserted
+2019-09-01 21:27:12.216 +02:00 [ERR] Data in row 27 is not inserted
+2019-09-01 22:22:32.589 +02:00 [ERR] Data in row 1 for developer Emaar Masr was not inserted
+2019-09-01 22:23:52.658 +02:00 [ERR] Data in row 1 for developer Emaar Masr was not inserted
+2019-09-01 22:53:45.570 +02:00 [ERR] Data in row 2 for developer  was not inserted
+2019-09-01 22:53:45.673 +02:00 [ERR] Data in row 3 for developer  was not inserted
+2019-09-01 22:53:45.721 +02:00 [ERR] Data in row 5 for developer  was not inserted
+2019-09-01 22:53:45.736 +02:00 [ERR] Data in row 6 for developer  was not inserted
+2019-09-01 22:53:45.751 +02:00 [ERR] Data in row 7 for developer  was not inserted
+2019-09-01 22:53:45.765 +02:00 [ERR] Data in row 8 for developer  was not inserted
+2019-09-01 22:53:45.780 +02:00 [ERR] Data in row 9 for developer  was not inserted
+2019-09-01 22:53:45.791 +02:00 [ERR] Data in row 10 for developer  was not inserted
+2019-09-01 22:53:45.807 +02:00 [ERR] Data in row 11 for developer  was not inserted
+2019-09-01 22:53:45.821 +02:00 [ERR] Data in row 12 for developer  was not inserted
+2019-09-01 22:53:45.836 +02:00 [ERR] Data in row 13 for developer  was not inserted
+2019-09-01 22:53:45.852 +02:00 [ERR] Data in row 14 for developer  was not inserted
+2019-09-01 22:53:45.866 +02:00 [ERR] Data in row 15 for developer  was not inserted
+2019-09-01 22:53:45.880 +02:00 [ERR] Data in row 16 for developer  was not inserted
+2019-09-01 22:53:45.898 +02:00 [ERR] Data in row 17 for developer  was not inserted
+2019-09-01 22:53:45.908 +02:00 [ERR] Data in row 18 for developer  was not inserted
+2019-09-01 22:53:45.924 +02:00 [ERR] Data in row 19 for developer  was not inserted
+2019-09-01 22:53:45.939 +02:00 [ERR] Data in row 20 for developer  was not inserted
+2019-09-01 22:53:45.956 +02:00 [ERR] Data in row 21 for developer  was not inserted
+2019-09-01 22:53:45.971 +02:00 [ERR] Data in row 22 for developer  was not inserted
+2019-09-01 22:53:45.989 +02:00 [ERR] Data in row 23 for developer  was not inserted
+2019-09-01 22:53:46.007 +02:00 [ERR] Data in row 24 for developer  was not inserted
+2019-09-01 22:53:46.022 +02:00 [ERR] Data in row 25 for developer  was not inserted
+2019-09-01 22:53:46.041 +02:00 [ERR] Data in row 26 for developer  was not inserted
+2019-09-01 22:53:46.061 +02:00 [ERR] Data in row 27 for developer  was not inserted
+2019-09-01 22:53:46.114 +02:00 [ERR] Data in row 29 for developer  was not inserted
+2019-09-01 22:53:46.124 +02:00 [ERR] Data in row 30 for developer  was not inserted
+2019-09-01 22:53:46.141 +02:00 [ERR] Data in row 31 for developer  was not inserted
+2019-09-01 22:53:46.161 +02:00 [ERR] Data in row 32 for developer  was not inserted
+2019-09-01 22:53:46.178 +02:00 [ERR] Data in row 33 for developer  was not inserted
+2019-09-01 22:53:46.194 +02:00 [ERR] Data in row 34 for developer  was not inserted
+2019-09-01 22:53:46.210 +02:00 [ERR] Data in row 35 for developer  was not inserted
+2019-09-01 22:53:46.225 +02:00 [ERR] Data in row 36 for developer  was not inserted
+2019-09-01 22:53:46.240 +02:00 [ERR] Data in row 37 for developer  was not inserted
+2019-09-01 22:53:46.256 +02:00 [ERR] Data in row 38 for developer  was not inserted
+2019-09-01 22:53:46.269 +02:00 [ERR] Data in row 39 for developer  was not inserted
+2019-09-01 22:53:46.283 +02:00 [ERR] Data in row 40 for developer  was not inserted
+2019-09-01 22:53:46.330 +02:00 [ERR] Data in row 42 for developer  was not inserted
+2019-09-01 22:53:46.344 +02:00 [ERR] Data in row 43 for developer  was not inserted
+2019-09-01 22:53:46.359 +02:00 [ERR] Data in row 44 for developer  was not inserted
+2019-09-01 22:53:46.368 +02:00 [ERR] Data in row 45 for developer  was not inserted
+2019-09-01 22:53:46.384 +02:00 [ERR] Data in row 46 for developer  was not inserted
+2019-09-01 22:53:46.397 +02:00 [ERR] Data in row 47 for developer  was not inserted
+2019-09-01 22:53:46.411 +02:00 [ERR] Data in row 48 for developer  was not inserted
+2019-09-01 22:53:46.426 +02:00 [ERR] Data in row 49 for developer  was not inserted
+2019-09-01 22:53:46.436 +02:00 [ERR] Data in row 50 for developer  was not inserted
+2019-09-01 22:53:46.452 +02:00 [ERR] Data in row 51 for developer  was not inserted
+2019-09-01 22:53:46.467 +02:00 [ERR] Data in row 52 for developer  was not inserted
+2019-09-01 22:53:46.512 +02:00 [ERR] Data in row 54 for developer  was not inserted
+2019-09-01 22:53:46.555 +02:00 [ERR] Data in row 56 for developer  was not inserted
+2019-09-01 22:53:46.569 +02:00 [ERR] Data in row 57 for developer  was not inserted
+2019-09-01 22:53:46.588 +02:00 [ERR] Data in row 58 for developer  was not inserted
+2019-09-01 22:53:46.606 +02:00 [ERR] Data in row 59 for developer  was not inserted
+2019-09-01 22:53:46.623 +02:00 [ERR] Data in row 60 for developer  was not inserted
+2019-09-01 22:53:46.677 +02:00 [ERR] Data in row 62 for developer  was not inserted
+2019-09-01 22:53:46.695 +02:00 [ERR] Data in row 63 for developer  was not inserted
+2019-09-01 22:53:46.713 +02:00 [ERR] Data in row 64 for developer  was not inserted
+2019-09-01 22:53:46.732 +02:00 [ERR] Data in row 65 for developer  was not inserted
+2019-09-01 22:53:46.747 +02:00 [ERR] Data in row 66 for developer  was not inserted
+2019-09-01 22:53:46.765 +02:00 [ERR] Data in row 67 for developer  was not inserted
+2019-09-01 22:53:46.781 +02:00 [ERR] Data in row 68 for developer  was not inserted
+2019-09-01 22:53:46.795 +02:00 [ERR] Data in row 69 for developer  was not inserted
+2019-09-01 22:53:46.811 +02:00 [ERR] Data in row 70 for developer  was not inserted
+2019-09-01 22:53:46.824 +02:00 [ERR] Data in row 71 for developer  was not inserted
+2019-09-01 22:53:46.837 +02:00 [ERR] Data in row 72 for developer  was not inserted
+2019-09-01 22:53:46.846 +02:00 [ERR] Data in row 73 for developer  was not inserted
+2019-09-01 22:53:46.862 +02:00 [ERR] Data in row 74 for developer  was not inserted
+2019-09-01 22:53:46.875 +02:00 [ERR] Data in row 75 for developer  was not inserted
+2019-09-01 22:53:46.917 +02:00 [ERR] Data in row 77 for developer  was not inserted
+2019-09-01 22:53:46.934 +02:00 [ERR] Data in row 78 for developer  was not inserted
+2019-09-01 22:53:46.949 +02:00 [ERR] Data in row 79 for developer  was not inserted
+2019-09-01 22:53:46.964 +02:00 [ERR] Data in row 80 for developer  was not inserted
+2019-09-01 22:53:46.980 +02:00 [ERR] Data in row 81 for developer  was not inserted
+2019-09-01 22:53:46.994 +02:00 [ERR] Data in row 82 for developer  was not inserted
+2019-09-01 22:53:47.011 +02:00 [ERR] Data in row 83 for developer  was not inserted
+2019-09-01 22:53:47.025 +02:00 [ERR] Data in row 84 for developer  was not inserted
+2019-09-01 22:53:47.078 +02:00 [ERR] Data in row 86 for developer  was not inserted
+2019-09-01 22:53:47.096 +02:00 [ERR] Data in row 87 for developer  was not inserted
+2019-09-01 22:53:47.113 +02:00 [ERR] Data in row 88 for developer  was not inserted
+2019-09-01 22:53:47.123 +02:00 [ERR] Data in row 89 for developer  was not inserted
+2019-09-01 22:53:47.138 +02:00 [ERR] Data in row 90 for developer  was not inserted
+2019-09-01 22:53:47.152 +02:00 [ERR] Data in row 91 for developer  was not inserted
+2019-09-01 22:53:47.166 +02:00 [ERR] Data in row 92 for developer  was not inserted
+2019-09-01 22:53:47.181 +02:00 [ERR] Data in row 93 for developer  was not inserted
+2019-09-01 22:53:47.190 +02:00 [ERR] Data in row 94 for developer  was not inserted
+2019-09-01 22:53:47.204 +02:00 [ERR] Data in row 95 for developer  was not inserted
+2019-09-01 22:53:47.219 +02:00 [ERR] Data in row 96 for developer  was not inserted
+2019-09-01 22:53:47.234 +02:00 [ERR] Data in row 97 for developer  was not inserted
+2019-09-01 22:53:47.249 +02:00 [ERR] Data in row 98 for developer  was not inserted
+2019-09-01 22:53:47.265 +02:00 [ERR] Data in row 99 for developer  was not inserted
+2019-09-01 22:53:47.278 +02:00 [ERR] Data in row 100 for developer  was not inserted
+2019-09-01 22:53:47.318 +02:00 [ERR] Data in row 102 for developer  was not inserted
+2019-09-01 22:53:47.334 +02:00 [ERR] Data in row 103 for developer  was not inserted
+2019-09-01 22:53:47.350 +02:00 [ERR] Data in row 104 for developer  was not inserted
+2019-09-01 22:53:47.365 +02:00 [ERR] Data in row 105 for developer  was not inserted
+2019-09-01 22:53:47.378 +02:00 [ERR] Data in row 106 for developer  was not inserted
+2019-09-01 22:53:47.392 +02:00 [ERR] Data in row 107 for developer  was not inserted
+2019-09-01 22:53:47.407 +02:00 [ERR] Data in row 108 for developer  was not inserted
+2019-09-01 22:53:47.417 +02:00 [ERR] Data in row 109 for developer  was not inserted
+2019-09-01 22:53:47.431 +02:00 [ERR] Data in row 110 for developer  was not inserted
+2019-09-01 22:53:47.446 +02:00 [ERR] Data in row 111 for developer  was not inserted
+2019-09-01 22:53:47.462 +02:00 [ERR] Data in row 112 for developer  was not inserted
+2019-09-01 22:53:47.476 +02:00 [ERR] Data in row 113 for developer  was not inserted
+2019-09-01 22:53:47.492 +02:00 [ERR] Data in row 114 for developer  was not inserted
+2019-09-01 22:53:47.505 +02:00 [ERR] Data in row 115 for developer  was not inserted
+2019-09-01 22:53:47.519 +02:00 [ERR] Data in row 116 for developer  was not inserted
+2019-09-01 22:53:47.528 +02:00 [ERR] Data in row 117 for developer  was not inserted
+2019-09-01 22:53:47.544 +02:00 [ERR] Data in row 118 for developer  was not inserted
+2019-09-01 22:53:47.556 +02:00 [ERR] Data in row 119 for developer  was not inserted
+2019-09-01 22:53:47.573 +02:00 [ERR] Data in row 120 for developer  was not inserted
+2019-09-01 22:53:47.579 +02:00 [ERR] Data in row 121 for developer  was not inserted
+2019-09-01 22:53:47.596 +02:00 [ERR] Data in row 122 for developer  was not inserted
+2019-09-01 22:53:47.634 +02:00 [ERR] Data in row 124 for developer  was not inserted
+2019-09-01 22:53:47.650 +02:00 [ERR] Data in row 125 for developer  was not inserted
+2019-09-01 22:53:47.665 +02:00 [ERR] Data in row 126 for developer  was not inserted
+2019-09-01 22:53:47.678 +02:00 [ERR] Data in row 127 for developer  was not inserted
+2019-09-01 22:53:47.692 +02:00 [ERR] Data in row 128 for developer  was not inserted
+2019-09-01 22:53:47.701 +02:00 [ERR] Data in row 129 for developer  was not inserted
+2019-09-01 22:53:47.716 +02:00 [ERR] Data in row 130 for developer  was not inserted
+2019-09-01 22:53:47.763 +02:00 [ERR] Data in row 132 for developer  was not inserted
+2019-09-01 22:53:47.772 +02:00 [ERR] Data in row 133 for developer  was not inserted
+2019-09-01 22:53:47.788 +02:00 [ERR] Data in row 134 for developer  was not inserted
+2019-09-01 22:53:47.802 +02:00 [ERR] Data in row 135 for developer  was not inserted
+2019-09-01 22:53:47.817 +02:00 [ERR] Data in row 136 for developer  was not inserted
+2019-09-01 22:53:47.831 +02:00 [ERR] Data in row 137 for developer  was not inserted
+2019-09-01 22:53:47.845 +02:00 [ERR] Data in row 138 for developer  was not inserted
+2019-09-01 22:53:47.854 +02:00 [ERR] Data in row 139 for developer  was not inserted
+2019-09-01 22:53:47.869 +02:00 [ERR] Data in row 140 for developer  was not inserted
+2019-09-01 22:53:47.882 +02:00 [ERR] Data in row 141 for developer  was not inserted
+2019-09-01 22:53:47.924 +02:00 [ERR] Data in row 143 for developer  was not inserted
+2019-09-01 22:53:47.940 +02:00 [ERR] Data in row 144 for developer  was not inserted
+2019-09-01 22:53:47.955 +02:00 [ERR] Data in row 145 for developer  was not inserted
+2019-09-01 22:53:47.970 +02:00 [ERR] Data in row 146 for developer  was not inserted
+2019-09-01 22:53:47.983 +02:00 [ERR] Data in row 147 for developer  was not inserted
+2019-09-01 22:53:48.033 +02:00 [ERR] Data in row 149 for developer  was not inserted
+2019-09-01 22:53:48.042 +02:00 [ERR] Data in row 150 for developer  was not inserted
+2019-09-01 22:53:48.086 +02:00 [ERR] Data in row 152 for developer  was not inserted
+2019-09-01 22:53:48.095 +02:00 [ERR] Data in row 153 for developer  was not inserted
+2019-09-01 22:53:48.110 +02:00 [ERR] Data in row 154 for developer  was not inserted
+2019-09-01 22:53:48.123 +02:00 [ERR] Data in row 155 for developer  was not inserted
+2019-09-01 22:53:48.133 +02:00 [ERR] Data in row 156 for developer  was not inserted
+2019-09-01 22:53:48.157 +02:00 [ERR] Data in row 157 for developer  was not inserted
+2019-09-01 22:53:48.165 +02:00 [ERR] Data in row 158 for developer  was not inserted
+2019-09-01 22:53:48.214 +02:00 [ERR] Data in row 160 for developer  was not inserted
+2019-09-01 22:53:48.227 +02:00 [ERR] Data in row 161 for developer  was not inserted
+2019-09-01 22:53:48.243 +02:00 [ERR] Data in row 162 for developer  was not inserted
+2019-09-01 22:53:48.257 +02:00 [ERR] Data in row 163 for developer  was not inserted
+2019-09-01 22:53:48.298 +02:00 [ERR] Data in row 165 for developer  was not inserted
+2019-09-01 22:53:48.311 +02:00 [ERR] Data in row 166 for developer  was not inserted
+2019-09-01 22:53:48.325 +02:00 [ERR] Data in row 167 for developer  was not inserted
+2019-09-01 22:53:48.334 +02:00 [ERR] Data in row 168 for developer  was not inserted
+2019-09-01 22:53:48.349 +02:00 [ERR] Data in row 169 for developer  was not inserted
+2019-09-01 22:53:48.365 +02:00 [ERR] Data in row 170 for developer  was not inserted
+2019-09-01 22:53:48.411 +02:00 [ERR] Data in row 172 for developer  was not inserted
+2019-09-01 22:53:48.425 +02:00 [ERR] Data in row 173 for developer  was not inserted
+2019-09-01 22:53:48.441 +02:00 [ERR] Data in row 174 for developer  was not inserted
+2019-09-01 22:53:48.449 +02:00 [ERR] Data in row 175 for developer  was not inserted
+2019-09-01 22:53:48.463 +02:00 [ERR] Data in row 176 for developer  was not inserted
+2019-09-01 22:53:48.477 +02:00 [ERR] Data in row 177 for developer  was not inserted
+2019-09-01 22:53:48.485 +02:00 [ERR] Data in row 178 for developer  was not inserted
+2019-09-01 22:53:48.500 +02:00 [ERR] Data in row 179 for developer  was not inserted
+2019-09-01 22:53:48.548 +02:00 [ERR] Data in row 181 for developer  was not inserted
+2019-09-01 22:53:48.561 +02:00 [ERR] Data in row 182 for developer  was not inserted
+2019-09-01 22:53:48.575 +02:00 [ERR] Data in row 183 for developer  was not inserted
+2019-09-01 22:53:48.600 +02:00 [ERR] Data in row 184 for developer  was not inserted
+2019-09-01 22:53:48.612 +02:00 [ERR] Data in row 185 for developer  was not inserted
+2019-09-01 22:53:48.626 +02:00 [ERR] Data in row 186 for developer  was not inserted
+2019-09-01 22:53:48.635 +02:00 [ERR] Data in row 187 for developer  was not inserted
+2019-09-01 22:53:48.651 +02:00 [ERR] Data in row 188 for developer  was not inserted
+2019-09-01 22:53:48.664 +02:00 [ERR] Data in row 189 for developer  was not inserted
+2019-09-01 22:53:48.679 +02:00 [ERR] Data in row 190 for developer  was not inserted
+2019-09-01 22:53:48.718 +02:00 [ERR] Data in row 192 for developer  was not inserted
+2019-09-01 22:53:48.733 +02:00 [ERR] Data in row 193 for developer  was not inserted
+2019-09-01 22:53:48.748 +02:00 [ERR] Data in row 194 for developer  was not inserted
+2019-09-01 22:53:48.761 +02:00 [ERR] Data in row 195 for developer  was not inserted
+2019-09-01 22:53:48.775 +02:00 [ERR] Data in row 196 for developer  was not inserted
+2019-09-01 22:53:48.784 +02:00 [ERR] Data in row 197 for developer  was not inserted
+2019-09-01 22:53:48.800 +02:00 [ERR] Data in row 198 for developer  was not inserted
+2019-09-01 22:53:48.848 +02:00 [ERR] Data in row 200 for developer  was not inserted
+2019-09-01 22:53:48.861 +02:00 [ERR] Data in row 201 for developer  was not inserted
+2019-09-01 22:53:48.875 +02:00 [ERR] Data in row 202 for developer  was not inserted
+2019-09-01 22:53:48.891 +02:00 [ERR] Data in row 203 for developer  was not inserted
+2019-09-01 22:53:48.900 +02:00 [ERR] Data in row 204 for developer  was not inserted
+2019-09-01 22:53:48.913 +02:00 [ERR] Data in row 205 for developer  was not inserted
+2019-09-01 22:53:48.927 +02:00 [ERR] Data in row 206 for developer  was not inserted
+2019-09-01 22:53:48.943 +02:00 [ERR] Data in row 207 for developer  was not inserted
+2019-09-01 22:53:48.984 +02:00 [ERR] Data in row 209 for developer  was not inserted
+2019-09-01 22:53:48.999 +02:00 [ERR] Data in row 210 for developer  was not inserted
+2019-09-01 22:53:49.038 +02:00 [ERR] Data in row 212 for developer  was not inserted
+2019-09-01 22:53:49.054 +02:00 [ERR] Data in row 213 for developer  was not inserted
+2019-09-01 22:53:49.066 +02:00 [ERR] Data in row 214 for developer  was not inserted
+2019-09-01 22:53:49.073 +02:00 [ERR] Data in row 215 for developer  was not inserted
+2019-09-01 22:53:49.089 +02:00 [ERR] Data in row 216 for developer  was not inserted
+2019-09-01 22:53:49.104 +02:00 [ERR] Data in row 217 for developer  was not inserted
+2019-09-01 22:53:49.119 +02:00 [ERR] Data in row 218 for developer  was not inserted
+2019-09-01 22:53:49.134 +02:00 [ERR] Data in row 219 for developer  was not inserted
+2019-09-01 22:53:49.150 +02:00 [ERR] Data in row 220 for developer  was not inserted
+2019-09-01 22:53:49.163 +02:00 [ERR] Data in row 221 for developer  was not inserted
+2019-09-01 22:53:49.178 +02:00 [ERR] Data in row 222 for developer  was not inserted
+2019-09-01 22:53:49.187 +02:00 [ERR] Data in row 223 for developer  was not inserted
+2019-09-01 22:53:49.198 +02:00 [ERR] Data in row 224 for developer  was not inserted
+2019-09-01 22:53:49.214 +02:00 [ERR] Data in row 225 for developer  was not inserted
+2019-09-01 22:53:49.223 +02:00 [ERR] Data in row 226 for developer  was not inserted
+2019-09-01 22:53:49.237 +02:00 [ERR] Data in row 227 for developer  was not inserted
+2019-09-01 22:53:49.251 +02:00 [ERR] Data in row 228 for developer  was not inserted
+2019-09-01 22:53:49.260 +02:00 [ERR] Data in row 229 for developer  was not inserted
+2019-09-01 22:53:49.276 +02:00 [ERR] Data in row 230 for developer  was not inserted
+2019-09-01 22:53:49.290 +02:00 [ERR] Data in row 231 for developer  was not inserted
+2019-09-01 22:53:49.306 +02:00 [ERR] Data in row 232 for developer  was not inserted
+2019-09-01 22:53:49.321 +02:00 [ERR] Data in row 233 for developer  was not inserted
+2019-09-01 22:53:49.338 +02:00 [ERR] Data in row 234 for developer  was not inserted
+2019-09-01 22:53:49.355 +02:00 [ERR] Data in row 235 for developer  was not inserted
+2019-09-01 22:53:49.368 +02:00 [ERR] Data in row 236 for developer  was not inserted
+2019-09-01 22:53:49.383 +02:00 [ERR] Data in row 237 for developer  was not inserted
+2019-09-01 22:53:49.391 +02:00 [ERR] Data in row 238 for developer  was not inserted
+2019-09-01 22:53:49.406 +02:00 [ERR] Data in row 239 for developer  was not inserted
+2019-09-01 22:53:49.454 +02:00 [ERR] Data in row 241 for developer  was not inserted
+2019-09-01 22:53:49.467 +02:00 [ERR] Data in row 242 for developer  was not inserted
+2019-09-01 22:53:49.481 +02:00 [ERR] Data in row 243 for developer  was not inserted
+2019-09-01 22:53:49.521 +02:00 [ERR] Data in row 245 for developer  was not inserted
+2019-09-01 22:53:49.537 +02:00 [ERR] Data in row 246 for developer  was not inserted
+2019-09-01 22:53:49.583 +02:00 [ERR] Data in row 248 for developer  was not inserted
+2019-09-01 22:53:49.592 +02:00 [ERR] Data in row 249 for developer  was not inserted
+2019-09-01 22:53:49.607 +02:00 [ERR] Data in row 250 for developer  was not inserted
+2019-09-01 22:53:49.622 +02:00 [ERR] Data in row 251 for developer  was not inserted
+2019-09-01 22:53:49.638 +02:00 [ERR] Data in row 252 for developer  was not inserted
+2019-09-01 22:53:49.674 +02:00 [ERR] Data in row 254 for developer  was not inserted
+2019-09-01 22:53:49.691 +02:00 [ERR] Data in row 255 for developer  was not inserted
+2019-09-01 22:53:49.706 +02:00 [ERR] Data in row 256 for developer  was not inserted
+2019-09-01 22:53:49.719 +02:00 [ERR] Data in row 257 for developer  was not inserted
+2019-09-01 22:53:49.733 +02:00 [ERR] Data in row 258 for developer  was not inserted
+2019-09-01 22:53:49.743 +02:00 [ERR] Data in row 259 for developer  was not inserted
+2019-09-01 22:53:49.759 +02:00 [ERR] Data in row 260 for developer  was not inserted
+2019-09-01 22:53:49.771 +02:00 [ERR] Data in row 261 for developer  was not inserted
+2019-09-01 22:53:49.812 +02:00 [ERR] Data in row 263 for developer  was not inserted
+2019-09-01 22:53:49.828 +02:00 [ERR] Data in row 264 for developer  was not inserted
+2019-09-01 22:53:49.842 +02:00 [ERR] Data in row 265 for developer  was not inserted
+2019-09-01 22:53:49.888 +02:00 [ERR] Data in row 267 for developer  was not inserted
+2019-09-01 22:53:49.903 +02:00 [ERR] Data in row 268 for developer  was not inserted
+2019-09-01 22:53:49.917 +02:00 [ERR] Data in row 269 for developer  was not inserted
+2019-09-01 22:53:49.965 +02:00 [ERR] Data in row 271 for developer  was not inserted
+2019-09-01 22:53:49.980 +02:00 [ERR] Data in row 272 for developer  was not inserted
+2019-09-01 22:53:49.993 +02:00 [ERR] Data in row 273 for developer  was not inserted
+2019-09-01 22:53:50.008 +02:00 [ERR] Data in row 274 for developer  was not inserted
+2019-09-01 22:53:50.021 +02:00 [ERR] Data in row 275 for developer  was not inserted
+2019-09-01 22:53:50.035 +02:00 [ERR] Data in row 276 for developer  was not inserted
+2019-09-01 22:53:50.045 +02:00 [ERR] Data in row 277 for developer  was not inserted
+2019-09-01 22:53:50.093 +02:00 [ERR] Data in row 279 for developer  was not inserted
+2019-09-01 22:53:50.107 +02:00 [ERR] Data in row 280 for developer  was not inserted
+2019-09-01 22:53:50.124 +02:00 [ERR] Data in row 281 for developer  was not inserted
+2019-09-01 22:53:50.133 +02:00 [ERR] Data in row 282 for developer  was not inserted
+2019-09-01 22:53:50.146 +02:00 [ERR] Data in row 283 for developer  was not inserted
+2019-09-01 22:53:50.188 +02:00 [ERR] Data in row 285 for developer  was not inserted
+2019-09-01 22:53:50.205 +02:00 [ERR] Data in row 286 for developer  was not inserted
+2019-09-01 22:53:50.220 +02:00 [ERR] Data in row 287 for developer  was not inserted
+2019-09-01 22:53:50.237 +02:00 [ERR] Data in row 288 for developer  was not inserted
+2019-09-01 22:53:50.252 +02:00 [ERR] Data in row 289 for developer  was not inserted
+2019-09-01 22:53:50.298 +02:00 [ERR] Data in row 291 for developer  was not inserted
+2019-09-01 22:53:50.312 +02:00 [ERR] Data in row 292 for developer  was not inserted
+2019-09-01 22:53:50.353 +02:00 [ERR] Data in row 294 for developer  was not inserted
+2019-09-01 22:53:50.369 +02:00 [ERR] Data in row 295 for developer  was not inserted
+2019-09-01 22:53:50.384 +02:00 [ERR] Data in row 296 for developer  was not inserted
+2019-09-01 22:53:50.398 +02:00 [ERR] Data in row 297 for developer  was not inserted
+2019-09-01 22:53:50.449 +02:00 [ERR] Data in row 299 for developer  was not inserted
+2019-09-01 22:53:50.465 +02:00 [ERR] Data in row 300 for developer  was not inserted
+2019-09-01 22:53:50.474 +02:00 [ERR] Data in row 301 for developer  was not inserted
+2019-09-01 22:53:50.491 +02:00 [ERR] Data in row 302 for developer  was not inserted
+2019-09-01 22:53:50.504 +02:00 [ERR] Data in row 303 for developer  was not inserted
+2019-09-01 22:53:50.519 +02:00 [ERR] Data in row 304 for developer  was not inserted
+2019-09-01 22:53:50.534 +02:00 [ERR] Data in row 305 for developer  was not inserted
+2019-09-01 22:53:50.548 +02:00 [ERR] Data in row 306 for developer  was not inserted
+2019-09-01 22:53:50.563 +02:00 [ERR] Data in row 307 for developer  was not inserted
+2019-09-01 22:53:50.572 +02:00 [ERR] Data in row 308 for developer  was not inserted
+2019-09-01 22:53:50.588 +02:00 [ERR] Data in row 309 for developer  was not inserted
+2019-09-01 22:53:50.600 +02:00 [ERR] Data in row 310 for developer  was not inserted
+2019-09-01 22:53:50.607 +02:00 [ERR] Data in row 311 for developer  was not inserted
+2019-09-01 22:53:50.624 +02:00 [ERR] Data in row 312 for developer  was not inserted
+2019-09-01 22:53:50.672 +02:00 [ERR] Data in row 314 for developer  was not inserted
+2019-09-01 22:53:50.687 +02:00 [ERR] Data in row 315 for developer  was not inserted
+2019-09-01 22:53:50.700 +02:00 [ERR] Data in row 316 for developer  was not inserted
+2019-09-01 22:53:50.714 +02:00 [ERR] Data in row 317 for developer  was not inserted
+2019-09-01 22:53:50.723 +02:00 [ERR] Data in row 318 for developer  was not inserted
+2019-09-01 22:53:50.738 +02:00 [ERR] Data in row 319 for developer  was not inserted
+2019-09-01 22:53:50.811 +02:00 [ERR] Data in row 322 for developer  was not inserted
+2019-09-01 22:53:50.825 +02:00 [ERR] Data in row 323 for developer  was not inserted
+2019-09-01 22:53:50.839 +02:00 [ERR] Data in row 324 for developer  was not inserted
+2019-09-01 22:53:50.848 +02:00 [ERR] Data in row 325 for developer  was not inserted
+2019-09-01 22:53:50.863 +02:00 [ERR] Data in row 326 for developer  was not inserted
+2019-09-01 22:53:50.910 +02:00 [ERR] Data in row 328 for developer  was not inserted
+2019-09-01 23:19:01.130 +02:00 [ERR] Data in row 2 for developer  was not inserted
+2019-09-01 23:19:01.235 +02:00 [ERR] Data in row 3 for developer  was not inserted
+2019-09-01 23:19:01.274 +02:00 [ERR] Data in row 5 for developer  was not inserted
+2019-09-01 23:19:01.290 +02:00 [ERR] Data in row 6 for developer  was not inserted
+2019-09-01 23:19:01.306 +02:00 [ERR] Data in row 7 for developer  was not inserted
+2019-09-01 23:19:01.320 +02:00 [ERR] Data in row 8 for developer  was not inserted
+2019-09-01 23:19:01.335 +02:00 [ERR] Data in row 9 for developer  was not inserted
+2019-09-01 23:19:01.348 +02:00 [ERR] Data in row 10 for developer  was not inserted
+2019-09-01 23:19:01.362 +02:00 [ERR] Data in row 11 for developer  was not inserted
+2019-09-01 23:19:01.377 +02:00 [ERR] Data in row 12 for developer  was not inserted
+2019-09-01 23:19:01.385 +02:00 [ERR] Data in row 13 for developer  was not inserted
+2019-09-01 23:19:01.403 +02:00 [ERR] Data in row 14 for developer  was not inserted
+2019-09-01 23:19:01.418 +02:00 [ERR] Data in row 15 for developer  was not inserted
+2019-09-01 23:19:01.432 +02:00 [ERR] Data in row 16 for developer  was not inserted
+2019-09-01 23:19:01.444 +02:00 [ERR] Data in row 17 for developer  was not inserted
+2019-09-01 23:19:01.458 +02:00 [ERR] Data in row 18 for developer  was not inserted
+2019-09-01 23:19:01.468 +02:00 [ERR] Data in row 19 for developer  was not inserted
+2019-09-01 23:19:01.479 +02:00 [ERR] Data in row 20 for developer  was not inserted
+2019-09-01 23:19:01.495 +02:00 [ERR] Data in row 21 for developer  was not inserted
+2019-09-01 23:19:01.502 +02:00 [ERR] Data in row 22 for developer  was not inserted
+2019-09-01 23:19:01.518 +02:00 [ERR] Data in row 23 for developer  was not inserted
+2019-09-01 23:19:01.529 +02:00 [ERR] Data in row 24 for developer  was not inserted
+2019-09-01 23:19:01.544 +02:00 [ERR] Data in row 25 for developer  was not inserted
+2019-09-01 23:19:01.551 +02:00 [ERR] Data in row 26 for developer  was not inserted
+2019-09-01 23:19:01.567 +02:00 [ERR] Data in row 27 for developer  was not inserted
+2019-09-01 23:19:01.611 +02:00 [ERR] Data in row 29 for developer  was not inserted
+2019-09-01 23:19:01.624 +02:00 [ERR] Data in row 30 for developer  was not inserted
+2019-09-01 23:19:01.637 +02:00 [ERR] Data in row 31 for developer  was not inserted
+2019-09-01 23:19:01.646 +02:00 [ERR] Data in row 32 for developer  was not inserted
+2019-09-01 23:19:01.662 +02:00 [ERR] Data in row 33 for developer  was not inserted
+2019-09-01 23:19:01.675 +02:00 [ERR] Data in row 34 for developer  was not inserted
+2019-09-01 23:19:01.689 +02:00 [ERR] Data in row 35 for developer  was not inserted
+2019-09-01 23:19:01.697 +02:00 [ERR] Data in row 36 for developer  was not inserted
+2019-09-01 23:19:01.713 +02:00 [ERR] Data in row 37 for developer  was not inserted
+2019-09-01 23:19:01.728 +02:00 [ERR] Data in row 38 for developer  was not inserted
+2019-09-01 23:19:01.742 +02:00 [ERR] Data in row 39 for developer  was not inserted
+2019-09-01 23:19:01.756 +02:00 [ERR] Data in row 40 for developer  was not inserted
+2019-09-01 23:19:01.802 +02:00 [ERR] Data in row 42 for developer  was not inserted
+2019-09-01 23:19:01.814 +02:00 [ERR] Data in row 43 for developer  was not inserted
+2019-09-01 23:19:01.823 +02:00 [ERR] Data in row 44 for developer  was not inserted
+2019-09-01 23:19:01.838 +02:00 [ERR] Data in row 45 for developer  was not inserted
+2019-09-01 23:19:01.854 +02:00 [ERR] Data in row 46 for developer  was not inserted
+2019-09-01 23:19:01.867 +02:00 [ERR] Data in row 47 for developer  was not inserted
+2019-09-01 23:19:01.882 +02:00 [ERR] Data in row 48 for developer  was not inserted
+2019-09-01 23:19:01.896 +02:00 [ERR] Data in row 49 for developer  was not inserted
+2019-09-01 23:19:01.911 +02:00 [ERR] Data in row 50 for developer  was not inserted
+2019-09-01 23:19:01.923 +02:00 [ERR] Data in row 51 for developer  was not inserted
+2019-09-01 23:19:01.937 +02:00 [ERR] Data in row 52 for developer  was not inserted
+2019-09-01 23:19:01.985 +02:00 [ERR] Data in row 54 for developer  was not inserted
+2019-09-01 23:19:02.028 +02:00 [ERR] Data in row 56 for developer  was not inserted
+2019-09-01 23:19:02.045 +02:00 [ERR] Data in row 57 for developer  was not inserted
+2019-09-01 23:19:02.061 +02:00 [ERR] Data in row 58 for developer  was not inserted
+2019-09-01 23:19:02.074 +02:00 [ERR] Data in row 59 for developer  was not inserted
+2019-09-01 23:19:02.088 +02:00 [ERR] Data in row 60 for developer  was not inserted
+2019-09-01 23:19:02.127 +02:00 [ERR] Data in row 62 for developer  was not inserted
+2019-09-01 23:19:02.143 +02:00 [ERR] Data in row 63 for developer  was not inserted
+2019-09-01 23:19:02.157 +02:00 [ERR] Data in row 64 for developer  was not inserted
+2019-09-01 23:19:02.171 +02:00 [ERR] Data in row 65 for developer  was not inserted
+2019-09-01 23:19:02.185 +02:00 [ERR] Data in row 66 for developer  was not inserted
+2019-09-01 23:19:02.198 +02:00 [ERR] Data in row 67 for developer  was not inserted
+2019-09-01 23:19:02.212 +02:00 [ERR] Data in row 68 for developer  was not inserted
+2019-09-01 23:19:02.225 +02:00 [ERR] Data in row 69 for developer  was not inserted
+2019-09-01 23:19:02.238 +02:00 [ERR] Data in row 70 for developer  was not inserted
+2019-09-01 23:19:02.247 +02:00 [ERR] Data in row 71 for developer  was not inserted
+2019-09-01 23:19:02.264 +02:00 [ERR] Data in row 72 for developer  was not inserted
+2019-09-01 23:19:02.277 +02:00 [ERR] Data in row 73 for developer  was not inserted
+2019-09-01 23:19:02.291 +02:00 [ERR] Data in row 74 for developer  was not inserted
+2019-09-01 23:19:02.300 +02:00 [ERR] Data in row 75 for developer  was not inserted
+2019-09-01 23:19:02.349 +02:00 [ERR] Data in row 77 for developer  was not inserted
+2019-09-01 23:19:02.363 +02:00 [ERR] Data in row 78 for developer  was not inserted
+2019-09-01 23:19:02.374 +02:00 [ERR] Data in row 79 for developer  was not inserted
+2019-09-01 23:19:02.387 +02:00 [ERR] Data in row 80 for developer  was not inserted
+2019-09-01 23:19:02.397 +02:00 [ERR] Data in row 81 for developer  was not inserted
+2019-09-01 23:19:02.413 +02:00 [ERR] Data in row 82 for developer  was not inserted
+2019-09-01 23:19:02.426 +02:00 [ERR] Data in row 83 for developer  was not inserted
+2019-09-01 23:19:02.439 +02:00 [ERR] Data in row 84 for developer  was not inserted
+2019-09-01 23:19:02.479 +02:00 [ERR] Data in row 86 for developer  was not inserted
+2019-09-01 23:19:02.492 +02:00 [ERR] Data in row 87 for developer  was not inserted
+2019-09-01 23:19:02.502 +02:00 [ERR] Data in row 88 for developer  was not inserted
+2019-09-01 23:19:02.518 +02:00 [ERR] Data in row 89 for developer  was not inserted
+2019-09-01 23:19:02.531 +02:00 [ERR] Data in row 90 for developer  was not inserted
+2019-09-01 23:19:02.546 +02:00 [ERR] Data in row 91 for developer  was not inserted
+2019-09-01 23:19:02.561 +02:00 [ERR] Data in row 92 for developer  was not inserted
+2019-09-01 23:19:02.570 +02:00 [ERR] Data in row 93 for developer  was not inserted
+2019-09-01 23:19:02.586 +02:00 [ERR] Data in row 94 for developer  was not inserted
+2019-09-01 23:19:02.601 +02:00 [ERR] Data in row 95 for developer  was not inserted
+2019-09-01 23:19:02.616 +02:00 [ERR] Data in row 96 for developer  was not inserted
+2019-09-01 23:19:02.628 +02:00 [ERR] Data in row 97 for developer  was not inserted
+2019-09-01 23:19:02.641 +02:00 [ERR] Data in row 98 for developer  was not inserted
+2019-09-01 23:19:02.651 +02:00 [ERR] Data in row 99 for developer  was not inserted
+2019-09-01 23:19:02.666 +02:00 [ERR] Data in row 100 for developer  was not inserted
+2019-09-01 23:19:02.710 +02:00 [ERR] Data in row 102 for developer  was not inserted
+2019-09-01 23:19:02.720 +02:00 [ERR] Data in row 103 for developer  was not inserted
+2019-09-01 23:19:02.736 +02:00 [ERR] Data in row 104 for developer  was not inserted
+2019-09-01 23:19:02.751 +02:00 [ERR] Data in row 105 for developer  was not inserted
+2019-09-01 23:19:02.764 +02:00 [ERR] Data in row 106 for developer  was not inserted
+2019-09-01 23:19:02.778 +02:00 [ERR] Data in row 107 for developer  was not inserted
+2019-09-01 23:19:02.792 +02:00 [ERR] Data in row 108 for developer  was not inserted
+2019-09-01 23:19:02.805 +02:00 [ERR] Data in row 109 for developer  was not inserted
+2019-09-01 23:19:02.819 +02:00 [ERR] Data in row 110 for developer  was not inserted
+2019-09-01 23:19:02.829 +02:00 [ERR] Data in row 111 for developer  was not inserted
+2019-09-01 23:19:02.845 +02:00 [ERR] Data in row 112 for developer  was not inserted
+2019-09-01 23:19:02.859 +02:00 [ERR] Data in row 113 for developer  was not inserted
+2019-09-01 23:19:02.872 +02:00 [ERR] Data in row 114 for developer  was not inserted
+2019-09-01 23:19:02.881 +02:00 [ERR] Data in row 115 for developer  was not inserted
+2019-09-01 23:19:02.896 +02:00 [ERR] Data in row 116 for developer  was not inserted
+2019-09-01 23:19:02.910 +02:00 [ERR] Data in row 117 for developer  was not inserted
+2019-09-01 23:19:02.925 +02:00 [ERR] Data in row 118 for developer  was not inserted
+2019-09-01 23:19:02.939 +02:00 [ERR] Data in row 119 for developer  was not inserted
+2019-09-01 23:19:02.953 +02:00 [ERR] Data in row 120 for developer  was not inserted
+2019-09-01 23:19:02.968 +02:00 [ERR] Data in row 121 for developer  was not inserted
+2019-09-01 23:19:02.983 +02:00 [ERR] Data in row 122 for developer  was not inserted
+2019-09-01 23:19:03.030 +02:00 [ERR] Data in row 124 for developer  was not inserted
+2019-09-01 23:19:03.044 +02:00 [ERR] Data in row 125 for developer  was not inserted
+2019-09-01 23:19:03.062 +02:00 [ERR] Data in row 126 for developer  was not inserted
+2019-09-01 23:19:03.079 +02:00 [ERR] Data in row 127 for developer  was not inserted
+2019-09-01 23:19:03.088 +02:00 [ERR] Data in row 128 for developer  was not inserted
+2019-09-01 23:19:03.105 +02:00 [ERR] Data in row 129 for developer  was not inserted
+2019-09-01 23:19:03.120 +02:00 [ERR] Data in row 130 for developer  was not inserted
+2019-09-01 23:19:03.168 +02:00 [ERR] Data in row 132 for developer  was not inserted
+2019-09-01 23:19:03.182 +02:00 [ERR] Data in row 133 for developer  was not inserted
+2019-09-01 23:19:03.197 +02:00 [ERR] Data in row 134 for developer  was not inserted
+2019-09-01 23:19:03.212 +02:00 [ERR] Data in row 135 for developer  was not inserted
+2019-09-01 23:19:03.226 +02:00 [ERR] Data in row 136 for developer  was not inserted
+2019-09-01 23:19:03.241 +02:00 [ERR] Data in row 137 for developer  was not inserted
+2019-09-01 23:19:03.249 +02:00 [ERR] Data in row 138 for developer  was not inserted
+2019-09-01 23:19:03.263 +02:00 [ERR] Data in row 139 for developer  was not inserted
+2019-09-01 23:19:03.278 +02:00 [ERR] Data in row 140 for developer  was not inserted
+2019-09-01 23:19:03.292 +02:00 [ERR] Data in row 141 for developer  was not inserted
+2019-09-01 23:19:03.336 +02:00 [ERR] Data in row 143 for developer  was not inserted
+2019-09-01 23:19:03.350 +02:00 [ERR] Data in row 144 for developer  was not inserted
+2019-09-01 23:19:03.359 +02:00 [ERR] Data in row 145 for developer  was not inserted
+2019-09-01 23:19:03.374 +02:00 [ERR] Data in row 146 for developer  was not inserted
+2019-09-01 23:19:03.390 +02:00 [ERR] Data in row 147 for developer  was not inserted
+2019-09-01 23:19:03.435 +02:00 [ERR] Data in row 149 for developer  was not inserted
+2019-09-01 23:19:03.447 +02:00 [ERR] Data in row 150 for developer  was not inserted
+2019-09-01 23:19:03.489 +02:00 [ERR] Data in row 152 for developer  was not inserted
+2019-09-01 23:19:03.504 +02:00 [ERR] Data in row 153 for developer  was not inserted
+2019-09-01 23:19:03.517 +02:00 [ERR] Data in row 154 for developer  was not inserted
+2019-09-01 23:19:03.532 +02:00 [ERR] Data in row 155 for developer  was not inserted
+2019-09-01 23:19:03.546 +02:00 [ERR] Data in row 156 for developer  was not inserted
+2019-09-01 23:19:03.559 +02:00 [ERR] Data in row 157 for developer  was not inserted
+2019-09-01 23:19:03.573 +02:00 [ERR] Data in row 158 for developer  was not inserted
+2019-09-01 23:19:03.617 +02:00 [ERR] Data in row 160 for developer  was not inserted
+2019-09-01 23:19:03.632 +02:00 [ERR] Data in row 161 for developer  was not inserted
+2019-09-01 23:19:03.646 +02:00 [ERR] Data in row 162 for developer  was not inserted
+2019-09-01 23:19:03.659 +02:00 [ERR] Data in row 163 for developer  was not inserted
+2019-09-01 23:19:03.705 +02:00 [ERR] Data in row 165 for developer  was not inserted
+2019-09-01 23:19:03.712 +02:00 [ERR] Data in row 166 for developer  was not inserted
+2019-09-01 23:19:03.727 +02:00 [ERR] Data in row 167 for developer  was not inserted
+2019-09-01 23:19:03.741 +02:00 [ERR] Data in row 168 for developer  was not inserted
+2019-09-01 23:19:03.755 +02:00 [ERR] Data in row 169 for developer  was not inserted
+2019-09-01 23:19:03.769 +02:00 [ERR] Data in row 170 for developer  was not inserted
+2019-09-01 23:19:03.814 +02:00 [ERR] Data in row 172 for developer  was not inserted
+2019-09-01 23:19:03.827 +02:00 [ERR] Data in row 173 for developer  was not inserted
+2019-09-01 23:19:03.838 +02:00 [ERR] Data in row 174 for developer  was not inserted
+2019-09-01 23:19:03.853 +02:00 [ERR] Data in row 175 for developer  was not inserted
+2019-09-01 23:19:03.868 +02:00 [ERR] Data in row 176 for developer  was not inserted
+2019-09-01 23:19:03.883 +02:00 [ERR] Data in row 177 for developer  was not inserted
+2019-09-01 23:19:03.897 +02:00 [ERR] Data in row 178 for developer  was not inserted
+2019-09-01 23:19:03.910 +02:00 [ERR] Data in row 179 for developer  was not inserted
+2019-09-01 23:19:03.951 +02:00 [ERR] Data in row 181 for developer  was not inserted
+2019-09-01 23:19:03.964 +02:00 [ERR] Data in row 182 for developer  was not inserted
+2019-09-01 23:19:03.979 +02:00 [ERR] Data in row 183 for developer  was not inserted
+2019-09-01 23:19:03.993 +02:00 [ERR] Data in row 184 for developer  was not inserted
+2019-09-01 23:19:04.007 +02:00 [ERR] Data in row 185 for developer  was not inserted
+2019-09-01 23:19:04.021 +02:00 [ERR] Data in row 186 for developer  was not inserted
+2019-09-01 23:19:04.035 +02:00 [ERR] Data in row 187 for developer  was not inserted
+2019-09-01 23:19:04.050 +02:00 [ERR] Data in row 188 for developer  was not inserted
+2019-09-01 23:19:04.063 +02:00 [ERR] Data in row 189 for developer  was not inserted
+2019-09-01 23:19:04.076 +02:00 [ERR] Data in row 190 for developer  was not inserted
+2019-09-01 23:19:04.118 +02:00 [ERR] Data in row 192 for developer  was not inserted
+2019-09-01 23:19:04.133 +02:00 [ERR] Data in row 193 for developer  was not inserted
+2019-09-01 23:19:04.148 +02:00 [ERR] Data in row 194 for developer  was not inserted
+2019-09-01 23:19:04.162 +02:00 [ERR] Data in row 195 for developer  was not inserted
+2019-09-01 23:19:04.176 +02:00 [ERR] Data in row 196 for developer  was not inserted
+2019-09-01 23:19:04.189 +02:00 [ERR] Data in row 197 for developer  was not inserted
+2019-09-01 23:19:04.203 +02:00 [ERR] Data in row 198 for developer  was not inserted
+2019-09-01 23:19:04.253 +02:00 [ERR] Data in row 200 for developer  was not inserted
+2019-09-01 23:19:04.267 +02:00 [ERR] Data in row 201 for developer  was not inserted
+2019-09-01 23:19:04.282 +02:00 [ERR] Data in row 202 for developer  was not inserted
+2019-09-01 23:19:04.300 +02:00 [ERR] Data in row 203 for developer  was not inserted
+2019-09-01 23:19:04.316 +02:00 [ERR] Data in row 204 for developer  was not inserted
+2019-09-01 23:19:04.323 +02:00 [ERR] Data in row 205 for developer  was not inserted
+2019-09-01 23:19:04.338 +02:00 [ERR] Data in row 206 for developer  was not inserted
+2019-09-01 23:19:04.353 +02:00 [ERR] Data in row 207 for developer  was not inserted
+2019-09-01 23:19:04.402 +02:00 [ERR] Data in row 209 for developer  was not inserted
+2019-09-01 23:19:04.415 +02:00 [ERR] Data in row 210 for developer  was not inserted
+2019-09-01 23:19:04.464 +02:00 [ERR] Data in row 212 for developer  was not inserted
+2019-09-01 23:19:04.479 +02:00 [ERR] Data in row 213 for developer  was not inserted
+2019-09-01 23:19:04.492 +02:00 [ERR] Data in row 214 for developer  was not inserted
+2019-09-01 23:19:04.508 +02:00 [ERR] Data in row 215 for developer  was not inserted
+2019-09-01 23:19:04.523 +02:00 [ERR] Data in row 216 for developer  was not inserted
+2019-09-01 23:19:04.537 +02:00 [ERR] Data in row 217 for developer  was not inserted
+2019-09-01 23:19:04.553 +02:00 [ERR] Data in row 218 for developer  was not inserted
+2019-09-01 23:19:04.567 +02:00 [ERR] Data in row 219 for developer  was not inserted
+2019-09-01 23:19:04.582 +02:00 [ERR] Data in row 220 for developer  was not inserted
+2019-09-01 23:19:04.598 +02:00 [ERR] Data in row 221 for developer  was not inserted
+2019-09-01 23:19:04.613 +02:00 [ERR] Data in row 222 for developer  was not inserted
+2019-09-01 23:19:04.628 +02:00 [ERR] Data in row 223 for developer  was not inserted
+2019-09-01 23:19:04.640 +02:00 [ERR] Data in row 224 for developer  was not inserted
+2019-09-01 23:19:04.654 +02:00 [ERR] Data in row 225 for developer  was not inserted
+2019-09-01 23:19:04.663 +02:00 [ERR] Data in row 226 for developer  was not inserted
+2019-09-01 23:19:04.679 +02:00 [ERR] Data in row 227 for developer  was not inserted
+2019-09-01 23:19:04.692 +02:00 [ERR] Data in row 228 for developer  was not inserted
+2019-09-01 23:19:04.707 +02:00 [ERR] Data in row 229 for developer  was not inserted
+2019-09-01 23:19:04.717 +02:00 [ERR] Data in row 230 for developer  was not inserted
+2019-09-01 23:19:04.735 +02:00 [ERR] Data in row 231 for developer  was not inserted
+2019-09-01 23:19:04.748 +02:00 [ERR] Data in row 232 for developer  was not inserted
+2019-09-01 23:19:04.762 +02:00 [ERR] Data in row 233 for developer  was not inserted
+2019-09-01 23:19:04.776 +02:00 [ERR] Data in row 234 for developer  was not inserted
+2019-09-01 23:19:04.790 +02:00 [ERR] Data in row 235 for developer  was not inserted
+2019-09-01 23:19:04.805 +02:00 [ERR] Data in row 236 for developer  was not inserted
+2019-09-01 23:19:04.818 +02:00 [ERR] Data in row 237 for developer  was not inserted
+2019-09-01 23:19:04.831 +02:00 [ERR] Data in row 238 for developer  was not inserted
+2019-09-01 23:19:04.847 +02:00 [ERR] Data in row 239 for developer  was not inserted
+2019-09-01 23:19:04.887 +02:00 [ERR] Data in row 241 for developer  was not inserted
+2019-09-01 23:19:04.902 +02:00 [ERR] Data in row 242 for developer  was not inserted
+2019-09-01 23:19:04.917 +02:00 [ERR] Data in row 243 for developer  was not inserted
+2019-09-01 23:19:04.961 +02:00 [ERR] Data in row 245 for developer  was not inserted
+2019-09-01 23:19:04.978 +02:00 [ERR] Data in row 246 for developer  was not inserted
+2019-09-01 23:19:05.020 +02:00 [ERR] Data in row 248 for developer  was not inserted
+2019-09-01 23:19:05.035 +02:00 [ERR] Data in row 249 for developer  was not inserted
+2019-09-01 23:19:05.050 +02:00 [ERR] Data in row 250 for developer  was not inserted
+2019-09-01 23:19:05.063 +02:00 [ERR] Data in row 251 for developer  was not inserted
+2019-09-01 23:19:05.079 +02:00 [ERR] Data in row 252 for developer  was not inserted
+2019-09-01 23:19:05.127 +02:00 [ERR] Data in row 254 for developer  was not inserted
+2019-09-01 23:19:05.136 +02:00 [ERR] Data in row 255 for developer  was not inserted
+2019-09-01 23:19:05.150 +02:00 [ERR] Data in row 256 for developer  was not inserted
+2019-09-01 23:19:05.165 +02:00 [ERR] Data in row 257 for developer  was not inserted
+2019-09-01 23:19:05.181 +02:00 [ERR] Data in row 258 for developer  was not inserted
+2019-09-01 23:19:05.195 +02:00 [ERR] Data in row 259 for developer  was not inserted
+2019-09-01 23:19:05.210 +02:00 [ERR] Data in row 260 for developer  was not inserted
+2019-09-01 23:19:05.223 +02:00 [ERR] Data in row 261 for developer  was not inserted
+2019-09-01 23:19:05.270 +02:00 [ERR] Data in row 263 for developer  was not inserted
+2019-09-01 23:19:05.277 +02:00 [ERR] Data in row 264 for developer  was not inserted
+2019-09-01 23:19:05.292 +02:00 [ERR] Data in row 265 for developer  was not inserted
+2019-09-01 23:19:05.339 +02:00 [ERR] Data in row 267 for developer  was not inserted
+2019-09-01 23:19:05.356 +02:00 [ERR] Data in row 268 for developer  was not inserted
+2019-09-01 23:19:05.370 +02:00 [ERR] Data in row 269 for developer  was not inserted
+2019-09-01 23:19:05.417 +02:00 [ERR] Data in row 271 for developer  was not inserted
+2019-09-01 23:19:05.432 +02:00 [ERR] Data in row 272 for developer  was not inserted
+2019-09-01 23:19:05.446 +02:00 [ERR] Data in row 273 for developer  was not inserted
+2019-09-01 23:19:05.461 +02:00 [ERR] Data in row 274 for developer  was not inserted
+2019-09-01 23:19:05.471 +02:00 [ERR] Data in row 275 for developer  was not inserted
+2019-09-01 23:19:05.486 +02:00 [ERR] Data in row 276 for developer  was not inserted
+2019-09-01 23:19:05.500 +02:00 [ERR] Data in row 277 for developer  was not inserted
+2019-09-01 23:19:05.547 +02:00 [ERR] Data in row 279 for developer  was not inserted
+2019-09-01 23:19:05.556 +02:00 [ERR] Data in row 280 for developer  was not inserted
+2019-09-01 23:19:05.571 +02:00 [ERR] Data in row 281 for developer  was not inserted
+2019-09-01 23:19:05.587 +02:00 [ERR] Data in row 282 for developer  was not inserted
+2019-09-01 23:19:05.599 +02:00 [ERR] Data in row 283 for developer  was not inserted
+2019-09-01 23:19:05.650 +02:00 [ERR] Data in row 285 for developer  was not inserted
+2019-09-01 23:19:05.664 +02:00 [ERR] Data in row 286 for developer  was not inserted
+2019-09-01 23:19:05.673 +02:00 [ERR] Data in row 287 for developer  was not inserted
+2019-09-01 23:19:05.689 +02:00 [ERR] Data in row 288 for developer  was not inserted
+2019-09-01 23:19:05.702 +02:00 [ERR] Data in row 289 for developer  was not inserted
+2019-09-01 23:19:05.742 +02:00 [ERR] Data in row 291 for developer  was not inserted
+2019-09-01 23:19:05.757 +02:00 [ERR] Data in row 292 for developer  was not inserted
+2019-09-01 23:19:05.803 +02:00 [ERR] Data in row 294 for developer  was not inserted
+2019-09-01 23:19:05.818 +02:00 [ERR] Data in row 295 for developer  was not inserted
+2019-09-01 23:19:05.833 +02:00 [ERR] Data in row 296 for developer  was not inserted
+2019-09-01 23:19:05.847 +02:00 [ERR] Data in row 297 for developer  was not inserted
+2019-09-01 23:19:05.893 +02:00 [ERR] Data in row 299 for developer  was not inserted
+2019-09-01 23:19:05.909 +02:00 [ERR] Data in row 300 for developer  was not inserted
+2019-09-01 23:19:05.924 +02:00 [ERR] Data in row 301 for developer  was not inserted
+2019-09-01 23:19:05.938 +02:00 [ERR] Data in row 302 for developer  was not inserted
+2019-09-01 23:19:05.952 +02:00 [ERR] Data in row 303 for developer  was not inserted
+2019-09-01 23:19:05.965 +02:00 [ERR] Data in row 304 for developer  was not inserted
+2019-09-01 23:19:05.974 +02:00 [ERR] Data in row 305 for developer  was not inserted
+2019-09-01 23:19:05.990 +02:00 [ERR] Data in row 306 for developer  was not inserted
+2019-09-01 23:19:06.003 +02:00 [ERR] Data in row 307 for developer  was not inserted
+2019-09-01 23:19:06.018 +02:00 [ERR] Data in row 308 for developer  was not inserted
+2019-09-01 23:19:06.033 +02:00 [ERR] Data in row 309 for developer  was not inserted
+2019-09-01 23:19:06.047 +02:00 [ERR] Data in row 310 for developer  was not inserted
+2019-09-01 23:19:06.061 +02:00 [ERR] Data in row 311 for developer  was not inserted
+2019-09-01 23:19:06.075 +02:00 [ERR] Data in row 312 for developer  was not inserted
+2019-09-01 23:19:06.118 +02:00 [ERR] Data in row 314 for developer  was not inserted
+2019-09-01 23:19:06.133 +02:00 [ERR] Data in row 315 for developer  was not inserted
+2019-09-01 23:19:06.149 +02:00 [ERR] Data in row 316 for developer  was not inserted
+2019-09-01 23:19:06.156 +02:00 [ERR] Data in row 317 for developer  was not inserted
+2019-09-01 23:19:06.171 +02:00 [ERR] Data in row 318 for developer  was not inserted
+2019-09-01 23:19:06.186 +02:00 [ERR] Data in row 319 for developer  was not inserted
+2019-09-01 23:19:06.266 +02:00 [ERR] Data in row 322 for developer  was not inserted
+2019-09-01 23:19:06.279 +02:00 [ERR] Data in row 323 for developer  was not inserted
+2019-09-01 23:19:06.292 +02:00 [ERR] Data in row 324 for developer  was not inserted
+2019-09-01 23:19:06.308 +02:00 [ERR] Data in row 325 for developer  was not inserted
+2019-09-01 23:19:06.317 +02:00 [ERR] Data in row 326 for developer  was not inserted
+2019-09-01 23:19:06.362 +02:00 [ERR] Data in row 328 for developer  was not inserted

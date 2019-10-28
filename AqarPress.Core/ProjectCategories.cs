@@ -10,11 +10,18 @@ namespace AqarPress.Core
         Medical = 404,
         Commercial = 406,
 
-        [Description("Office&Retail")]
-        OfficeAndRetail = 407,
-
         [Description("Residential&Commercial")]
-        ResidentialAndCommercial = 408
+        ResidentialAndCommercial = 407,
+
+        [Description("Residential&Admin")]
+        ResidentialAndAmin = 408,
+
+        [Description("Commercial&Admin")]
+        CommercialAndAdmin = 409,
+
+        [Description("Commercial&Medical")]
+        CommercialAndMedical = 410
+
 
     }
 }

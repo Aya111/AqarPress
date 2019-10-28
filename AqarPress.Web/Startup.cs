@@ -10,6 +10,7 @@ using SD.LLBLGen.Pro.ORMSupportClasses;
 using System;
 using System.Diagnostics;
 using System.Linq;
+using Serilog;
 
 namespace AqarPress.Web
 {
@@ -25,6 +26,8 @@ namespace AqarPress.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            AddSerilogLogger();
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -79,6 +82,16 @@ namespace AqarPress.Web
         private void ConfigureApplication(IApplicationBuilder application)
         {
             Adapter.ConnectionString = Configuration["connectionString"];
+        }
+
+        private void AddSerilogLogger()
+        {
+            var logPath = AppDomain.CurrentDomain.BaseDirectory;
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Verbose()
+                .WriteTo.RollingFile($"{logPath}\\Logs\\log-{{Date}}.txt")
+                .CreateLogger();
+            Log.Information("Application started.");
         }
 
 

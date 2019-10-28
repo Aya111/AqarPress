@@ -1,8 +1,6 @@
 ﻿using AqarPress.Core.Identity;
 using AqarPress.Core.Repositories;
-using AqarPress.Data.Linq;
-using AqarPress.View.DtoClasses;
-using AqarPress.View.Persistence;
+using DB_A4D6F8_AqarPress.Data.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Distributed;
 using SD.LLBLGen.Pro.LinqSupportClasses;
@@ -11,6 +9,8 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Helpers;
+using View.DtoClasses;
+using View.Persistence;
 
 namespace AqarPress.Core
 {
@@ -39,7 +39,12 @@ namespace AqarPress.Core
                                 where u.MobilePhone == mobilePhone
                                 select u;
 
+                    Log.Information("Mobile {0}, password {1}", mobilePhone, password);
+
                     var result = await query.ProjectToUserView().SingleOrDefaultAsync();
+
+
+                    Log.Information("login result is {0}", result);
 
                     bool userExist;
 
@@ -68,6 +73,7 @@ namespace AqarPress.Core
                     }
                     else
                     {
+                        Log.Information("User is not found.");
                         return Result<APISession>.False("User is not found.");
                     }
                 }

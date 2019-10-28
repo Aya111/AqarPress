@@ -122,6 +122,7 @@
     <Compile Include="APIModels\Developer.cs" />
     <Compile Include="APIModels\Project.cs" />
     <Compile Include="APIModels\ProjectComment.cs" />
+    <Compile Include="APIModels\RegisterationUser.cs" />
     <Compile Include="APIModels\UserLoginModel.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="ICreateInScope.cs" />
@@ -145,29 +146,29 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data\AqarPress.Edit.Persistence\AqarPress.Edit.Persistence.csproj">
-      <Project>{8fe7e5c7-555d-4a99-9bc5-843dd20aa846}</Project>
-      <Name>AqarPress.Edit.Persistence</Name>
+    <ProjectReference Include="..\Data\DatabaseGeneric\DB_A4D6F8_AqarPress.Data.csproj">
+      <Project>{13ae6f14-863f-4046-9c40-5520b7d0fc59}</Project>
+      <Name>DB_A4D6F8_AqarPress.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\AqarPress.Edit\AqarPress.Edit.csproj">
-      <Project>{411096f4-7657-4564-8fa4-251cfaff1394}</Project>
-      <Name>AqarPress.Edit</Name>
+    <ProjectReference Include="..\Data\DatabaseSpecific\DB_A4D6F8_AqarPress.DataDBSpecific.csproj">
+      <Project>{e1612a5f-a78a-4e3f-9343-b14080835e0b}</Project>
+      <Name>DB_A4D6F8_AqarPress.DataDBSpecific</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\AqarPress.View.Persistence\AqarPress.View.Persistence.csproj">
-      <Project>{2d4ddddc-9a18-416a-9075-b07d170d0755}</Project>
-      <Name>AqarPress.View.Persistence</Name>
+    <ProjectReference Include="..\Data\Edit.Persistence\Edit.Persistence.csproj">
+      <Project>{d37b07c5-9baa-4b31-a246-6b1db66c44b9}</Project>
+      <Name>Edit.Persistence</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\AqarPress.View\AqarPress.View.csproj">
-      <Project>{9f318536-4251-4f40-8bae-a1db270cd850}</Project>
-      <Name>AqarPress.View</Name>
+    <ProjectReference Include="..\Data\Edit\Edit.csproj">
+      <Project>{60f4c3d0-ef14-4db2-8a1b-969289e182ac}</Project>
+      <Name>Edit</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\DatabaseGeneric\AqarPress.Data.csproj">
-      <Project>{f4abcc10-4511-400e-be28-ef801e8f69a8}</Project>
-      <Name>AqarPress.Data</Name>
+    <ProjectReference Include="..\Data\View.Persistence\View.Persistence.csproj">
+      <Project>{559266ac-3fa1-422a-bdbe-1fcbc6ec71e5}</Project>
+      <Name>View.Persistence</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Data\DatabaseSpecific\AqarPress.DataDBSpecific.csproj">
-      <Project>{b9af9a4b-a191-4aef-a789-40bfee543f12}</Project>
-      <Name>AqarPress.DataDBSpecific</Name>
+    <ProjectReference Include="..\Data\View\View.csproj">
+      <Project>{534FA152-CD19-4CCC-AB85-B96C070BD752}</Project>
+      <Name>View</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,6 @@
 ﻿using AqarPress.Core;
 using AqarPress.Core.APIModels;
 using AqarPress.Core.Repositories;
-using AqarPress.View.DtoClasses;
 using AqarPress.Web.Attributes;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;

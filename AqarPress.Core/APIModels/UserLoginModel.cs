@@ -1,5 +1,5 @@
-﻿using AqarPress.View.DtoClasses;
-using System;
+﻿using System;
+using View.DtoClasses;
 
 namespace AqarPress.Core.APIModels
 {
@@ -12,7 +12,6 @@ namespace AqarPress.Core.APIModels
 
         public class Reply
         {
-
             public Reply(UserView user)
             {
                 Id = user.Id;

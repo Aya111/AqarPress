@@ -1,7 +1,7 @@
 ﻿using AqarPress.Core.APIModels;
 using AqarPress.Core.Identity;
-using AqarPress.Data.EntityClasses;
-using AqarPress.Data.Linq;
+using DB_A4D6F8_AqarPress.Data.EntityClasses;
+using DB_A4D6F8_AqarPress.Data.Linq;
 using SD.LLBLGen.Pro.LinqSupportClasses;
 using System;
 using System.Collections.Generic;

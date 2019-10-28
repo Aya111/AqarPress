@@ -1,7 +1,7 @@
-﻿using AqarPress.View.DtoClasses;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using View.DtoClasses;
 
 namespace AqarPress.Core.Identity
 {
