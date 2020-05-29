@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using AqarPress.Core;
 using AqarPress.Core.APIModels;
@@ -53,6 +54,31 @@ namespace AqarPress.web.Areas.Mobile.Controllers
         [AllowAnonymous]
         public async Task<ActionResult<RegisterationUser>> Register([FromBody] RegisterationUser registerationUser)
         {
+            if(String.IsNullOrWhiteSpace(registerationUser.Name))
+            {
+                return BadRequest("Name Is Required");
+            }
+
+            if(String.IsNullOrWhiteSpace(registerationUser.Password))
+            {
+                return BadRequest("Password Is Required");
+            }
+
+            if(String.IsNullOrWhiteSpace(registerationUser.MobileNumber))
+            {
+                return BadRequest("Mobile Number Is Required");
+            }
+
+            if(_userRepository.IsTheMobileNumberExisted(registerationUser.MobileNumber).Result)
+            {
+                return BadRequest("Mobile Number Is Already Used With An Existed Account");
+            }
+
+            if(!Regex.Match(registerationUser.MobileNumber, @"(01)[0-9]{9}").Success)
+            {
+                return BadRequest("Mobile Number Is Not In The Correct Format");
+            }
+
             var user = new UserView()
             {
                 Name = registerationUser.Name,
@@ -62,7 +88,7 @@ namespace AqarPress.web.Areas.Mobile.Controllers
                 DeviceToken = registerationUser.DeviceToken
             };
 
-            var registerationResult = await _userRepository.Create(user);
+            var registerationResult = await _identityService.Register(user);
 
             Log.Information("Registeration result is " + registerationResult.IsTrue);
 
@@ -71,8 +97,6 @@ namespace AqarPress.web.Areas.Mobile.Controllers
                 Log.Error(registerationResult.Message);
                 return BadRequest(registerationResult.Message);
             }
-
-            user.Id = registerationResult.Value.Id;
 
             var reply = new UserLoginModel.Reply(user);
 

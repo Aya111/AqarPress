@@ -119,9 +119,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter.cs" />
+    <Compile Include="APIModels\Ad.cs" />
     <Compile Include="APIModels\Developer.cs" />
     <Compile Include="APIModels\Project.cs" />
     <Compile Include="APIModels\ProjectComment.cs" />
+    <Compile Include="APIModels\ProjectDiscussionAttachment.cs" />
     <Compile Include="APIModels\RegisterationUser.cs" />
     <Compile Include="APIModels\UserLoginModel.cs" />
     <Compile Include="Config.cs" />
@@ -134,6 +136,7 @@
     <Compile Include="ProjectCategories.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedisExtenstion.cs" />
+    <Compile Include="Repositories\AdRepository.cs" />
     <Compile Include="Repositories\DeveloperRepository.cs" />
     <Compile Include="Repositories\ProjectDiscussionRepository.cs" />
     <Compile Include="Repositories\ProjectRepository.cs" />

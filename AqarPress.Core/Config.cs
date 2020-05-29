@@ -19,7 +19,11 @@ namespace AqarPress.Core
 
         public const string DEVELOPER_UPLOADS_PATH = UPLOADS_PATH + "\\Developer\\";
 
-        public const string PROJECT_UPLOADS_PATH = UPLOADS_PATH + "\\Project\\"; 
+        public const string PROJECT_UPLOADS_PATH = UPLOADS_PATH + "\\Project\\";
+
+        public const string AD_IMAGE_PATH = UPLOADS_PATH + "\\Ad\\";
+
+        public const string DISCUSSION_ATTACHMENT_IMAGE_PATH = UPLOADS_PATH + "\\DiscussionAttachment\\";
 
         public static string GenerateDeveloperLogoPath(IHostingEnvironment env, string fileName)
         {
@@ -29,6 +33,16 @@ namespace AqarPress.Core
         public static string GenerateProjectLogoPath(IHostingEnvironment env, string fileName)
         {
             return string.Concat(env.WebRootPath, PROJECT_UPLOADS_PATH, fileName);
+        }
+
+        public static string GenerateAdImagePath(IHostingEnvironment env, string fileName)
+        {
+            return string.Concat(env.WebRootPath, AD_IMAGE_PATH, fileName);
+        }
+
+        public static string GenerateDiscussionAttachmentImagePath(IHostingEnvironment env, string fileName, int discussionId)
+        {
+            return string.Concat(env.WebRootPath, DISCUSSION_ATTACHMENT_IMAGE_PATH, discussionId, "\\", fileName);
         }
 
         public static DateTime GetSystemTime() => DateTime.UtcNow;

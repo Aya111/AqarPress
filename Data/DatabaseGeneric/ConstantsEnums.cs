@@ -14,8 +14,12 @@ namespace DB_A4D6F8_AqarPress.Data
 	/// <summary>Enum definition for all the entity types defined in this namespace. Used by the entityfields factory.</summary>
 	public enum EntityType
 	{
+		///<summary>Ad</summary>
+		AdEntity,
 		///<summary>Area</summary>
 		AreaEntity,
+		///<summary>Attachment</summary>
+		AttachmentEntity,
 		///<summary>Category</summary>
 		CategoryEntity,
 		///<summary>Developer</summary>

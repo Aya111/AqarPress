@@ -54,6 +54,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdPersistence.cs">
+      <GeneratedBy>LLBLGen Pro</GeneratedBy>
+    </Compile>
     <Compile Include="ProjectViewPersistence.cs">
       <GeneratedBy>LLBLGen Pro</GeneratedBy>
     </Compile>

@@ -36,7 +36,9 @@ namespace DB_A4D6F8_AqarPress.Data.DatabaseSpecific
 		private void Init()
 		{
 			this.InitClass();
+			InitAdEntityMappings();
 			InitAreaEntityMappings();
+			InitAttachmentEntityMappings();
 			InitCategoryEntityMappings();
 			InitDeveloperEntityMappings();
 			InitProjectEntityMappings();
@@ -47,6 +49,17 @@ namespace DB_A4D6F8_AqarPress.Data.DatabaseSpecific
 			InitUserEntityMappings();
 		}
 
+		/// <summary>Inits AdEntity's mappings</summary>
+		private void InitAdEntityMappings()
+		{
+			this.AddElementMapping("AdEntity", @"DB_A4D6F8_AqarPress", @"dbo", "Ad", 5, 0);
+			this.AddElementFieldMapping("AdEntity", "Id", "id", false, "Int", 0, 10, 0, true, "SCOPE_IDENTITY()", null, typeof(System.Int32), 0);
+			this.AddElementFieldMapping("AdEntity", "IsActive", "is_active", true, "Bit", 0, 0, 0, false, "", null, typeof(System.Boolean), 1);
+			this.AddElementFieldMapping("AdEntity", "Name", "NAME", true, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 2);
+			this.AddElementFieldMapping("AdEntity", "Path", "path", true, "NVarChar", 100, 0, 0, false, "", null, typeof(System.String), 3);
+			this.AddElementFieldMapping("AdEntity", "RedirectUrl", "redirect_url", true, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 4);
+		}
+
 		/// <summary>Inits AreaEntity's mappings</summary>
 		private void InitAreaEntityMappings()
 		{
@@ -54,6 +67,16 @@ namespace DB_A4D6F8_AqarPress.Data.DatabaseSpecific
 			this.AddElementFieldMapping("AreaEntity", "ArabicName", "arabic_name", false, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 0);
 			this.AddElementFieldMapping("AreaEntity", "Id", "id", false, "Int", 0, 10, 0, true, "SCOPE_IDENTITY()", null, typeof(System.Int32), 1);
 			this.AddElementFieldMapping("AreaEntity", "Name", "name", false, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 2);
+		}
+
+		/// <summary>Inits AttachmentEntity's mappings</summary>
+		private void InitAttachmentEntityMappings()
+		{
+			this.AddElementMapping("AttachmentEntity", @"DB_A4D6F8_AqarPress", @"dbo", "Attachments", 4, 0);
+			this.AddElementFieldMapping("AttachmentEntity", "Comment", "comment", true, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 0);
+			this.AddElementFieldMapping("AttachmentEntity", "Id", "id", false, "Int", 0, 10, 0, true, "SCOPE_IDENTITY()", null, typeof(System.Int32), 1);
+			this.AddElementFieldMapping("AttachmentEntity", "Path", "path", false, "NVarChar", 100, 0, 0, false, "", null, typeof(System.String), 2);
+			this.AddElementFieldMapping("AttachmentEntity", "ProjectDiscussionId", "project_discussion_id", true, "Int", 0, 10, 0, false, "", null, typeof(System.Int32), 3);
 		}
 
 		/// <summary>Inits CategoryEntity's mappings</summary>
@@ -97,7 +120,7 @@ namespace DB_A4D6F8_AqarPress.Data.DatabaseSpecific
 			this.AddElementFieldMapping("ProjectDiscussionEntity", "CommenterId", "commenter_id", false, "Int", 0, 10, 0, false, "", null, typeof(System.Int32), 0);
 			this.AddElementFieldMapping("ProjectDiscussionEntity", "DateCreated", "date_created", false, "DateTime", 0, 0, 0, false, "", null, typeof(System.DateTime), 1);
 			this.AddElementFieldMapping("ProjectDiscussionEntity", "Id", "id", false, "Int", 0, 10, 0, true, "SCOPE_IDENTITY()", null, typeof(System.Int32), 2);
-			this.AddElementFieldMapping("ProjectDiscussionEntity", "MessageBody", "message_body", false, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 3);
+			this.AddElementFieldMapping("ProjectDiscussionEntity", "MessageBody", "message_body", true, "NVarChar", 500, 0, 0, false, "", null, typeof(System.String), 3);
 			this.AddElementFieldMapping("ProjectDiscussionEntity", "ProjectId", "project_id", false, "Int", 0, 10, 0, false, "", null, typeof(System.Int32), 4);
 		}
 

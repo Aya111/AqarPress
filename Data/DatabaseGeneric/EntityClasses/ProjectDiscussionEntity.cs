@@ -26,6 +26,7 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 		// __LLBLGENPRO_USER_CODE_REGION_START AdditionalInterfaces
 		// __LLBLGENPRO_USER_CODE_REGION_END	
 	{
+		private EntityCollection<AttachmentEntity> _attachments;
 		private ProjectEntity _project;
 		private UserEntity _user;
 
@@ -41,6 +42,8 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 			public static readonly string Project = "Project";
 			/// <summary>Member name User</summary>
 			public static readonly string User = "User";
+			/// <summary>Member name Attachments</summary>
+			public static readonly string Attachments = "Attachments";
 		}
 
 		/// <summary>Static meta-data storage for navigator related information</summary>
@@ -49,6 +52,7 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 			public ProjectDiscussionEntityStaticMetaData()
 			{
 				SetEntityCoreInfo("ProjectDiscussionEntity", InheritanceHierarchyType.None, false, (int)DB_A4D6F8_AqarPress.Data.EntityType.ProjectDiscussionEntity, typeof(ProjectDiscussionEntity), typeof(ProjectDiscussionEntityFactory), false);
+				AddNavigatorMetaData<ProjectDiscussionEntity, EntityCollection<AttachmentEntity>>("Attachments", a => a._attachments, (a, b) => a._attachments = b, a => a.Attachments, () => new ProjectDiscussionRelations().AttachmentEntityUsingProjectDiscussionId, typeof(AttachmentEntity), (int)DB_A4D6F8_AqarPress.Data.EntityType.AttachmentEntity);
 				AddNavigatorMetaData<ProjectDiscussionEntity, ProjectEntity>("Project", "ProjectDiscussions", (a, b) => a._project = b, a => a._project, (a, b) => a.Project = b, DB_A4D6F8_AqarPress.Data.RelationClasses.StaticProjectDiscussionRelations.ProjectEntityUsingProjectIdStatic, ()=>new ProjectDiscussionRelations().ProjectEntityUsingProjectId, null, new int[] { (int)ProjectDiscussionFieldIndex.ProjectId }, null, true, (int)DB_A4D6F8_AqarPress.Data.EntityType.ProjectEntity);
 				AddNavigatorMetaData<ProjectDiscussionEntity, UserEntity>("User", "ProjectDiscussions", (a, b) => a._user = b, a => a._user, (a, b) => a.User = b, DB_A4D6F8_AqarPress.Data.RelationClasses.StaticProjectDiscussionRelations.UserEntityUsingCommenterIdStatic, ()=>new ProjectDiscussionRelations().UserEntityUsingCommenterId, null, new int[] { (int)ProjectDiscussionFieldIndex.CommenterId }, null, true, (int)DB_A4D6F8_AqarPress.Data.EntityType.UserEntity);
 			}
@@ -103,6 +107,10 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 			// __LLBLGENPRO_USER_CODE_REGION_END
 		}
 
+		/// <summary>Creates a new IRelationPredicateBucket object which contains the predicate expression and relation collection to fetch the related entities of type 'Attachment' to this entity.</summary>
+		/// <returns></returns>
+		public virtual IRelationPredicateBucket GetRelationInfoAttachments() { return CreateRelationInfoForNavigator("Attachments"); }
+
 		/// <summary>Creates a new IRelationPredicateBucket object which contains the predicate expression and relation collection to fetch the related entity of type 'Project' to this entity.</summary>
 		/// <returns></returns>
 		public virtual IRelationPredicateBucket GetRelationInfoProject() { return CreateRelationInfoForNavigator("Project"); }
@@ -141,6 +149,10 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 		/// <summary>The relations object holding all relations of this entity with other entity classes.</summary>
 		public static ProjectDiscussionRelations Relations { get { return _relationsFactory; } }
 
+		/// <summary>Creates a new PrefetchPathElement2 object which contains all the information to prefetch the related entities of type 'Attachment' for this entity.</summary>
+		/// <returns>Ready to use IPrefetchPathElement2 implementation.</returns>
+		public static IPrefetchPathElement2 PrefetchPathAttachments { get { return _staticMetaData.GetPrefetchPathElement("Attachments", CommonEntityBase.CreateEntityCollection<AttachmentEntity>()); } }
+
 		/// <summary>Creates a new PrefetchPathElement2 object which contains all the information to prefetch the related entities of type 'Project' for this entity.</summary>
 		/// <returns>Ready to use IPrefetchPathElement2 implementation.</returns>
 		public static IPrefetchPathElement2 PrefetchPathProject { get { return _staticMetaData.GetPrefetchPathElement("Project", CommonEntityBase.CreateEntityCollection<ProjectEntity>()); } }
@@ -173,7 +185,7 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 			set { SetValue((int)ProjectDiscussionFieldIndex.Id, value); }		}
 
 		/// <summary>The MessageBody property of the Entity ProjectDiscussion<br/><br/></summary>
-		/// <remarks>Mapped on  table field: "ProjectDiscussion"."message_body".<br/>Table field type characteristics (type, precision, scale, length): NVarChar, 0, 0, 500.<br/>Table field behavior characteristics (is nullable, is PK, is identity): false, false, false</remarks>
+		/// <remarks>Mapped on  table field: "ProjectDiscussion"."message_body".<br/>Table field type characteristics (type, precision, scale, length): NVarChar, 0, 0, 500.<br/>Table field behavior characteristics (is nullable, is PK, is identity): true, false, false</remarks>
 		public virtual System.String MessageBody
 		{
 			get { return (System.String)GetValue((int)ProjectDiscussionFieldIndex.MessageBody, true); }
@@ -187,6 +199,10 @@ namespace DB_A4D6F8_AqarPress.Data.EntityClasses
 			get { return (System.Int32)GetValue((int)ProjectDiscussionFieldIndex.ProjectId, true); }
 			set	{ SetValue((int)ProjectDiscussionFieldIndex.ProjectId, value); }
 		}
+
+		/// <summary>Gets the EntityCollection with the related entities of type 'AttachmentEntity' which are related to this entity via a relation of type '1:n'. If the EntityCollection hasn't been fetched yet, the collection returned will be empty.<br/><br/></summary>
+		[TypeContainedAttribute(typeof(AttachmentEntity))]
+		public virtual EntityCollection<AttachmentEntity> Attachments { get { return GetOrCreateEntityCollection<AttachmentEntity, AttachmentEntityFactory>("ProjectDiscussion", true, false, ref _attachments); } }
 
 		/// <summary>Gets / sets related entity of type 'ProjectEntity' which has to be set using a fetch action earlier. If no related entity is set for this property, null is returned..<br/><br/></summary>
 		[Browsable(false)]
@@ -234,6 +250,11 @@ namespace DB_A4D6F8_AqarPress.Data.RelationClasses
 	/// <summary>Implements the relations factory for the entity: ProjectDiscussion. </summary>
 	public partial class ProjectDiscussionRelations: RelationFactory
 	{
+		/// <summary>Returns a new IEntityRelation object, between ProjectDiscussionEntity and AttachmentEntity over the 1:n relation they have, using the relation between the fields: ProjectDiscussion.Id - Attachment.ProjectDiscussionId</summary>
+		public virtual IEntityRelation AttachmentEntityUsingProjectDiscussionId
+		{
+			get { return ModelInfoProviderSingleton.GetInstance().CreateRelation(RelationType.OneToMany, "Attachments", true, new[] { ProjectDiscussionFields.Id, AttachmentFields.ProjectDiscussionId }); }
+		}
 
 		/// <summary>Returns a new IEntityRelation object, between ProjectDiscussionEntity and ProjectEntity over the m:1 relation they have, using the relation between the fields: ProjectDiscussion.ProjectId - Project.Id</summary>
 		public virtual IEntityRelation ProjectEntityUsingProjectId
@@ -252,6 +273,7 @@ namespace DB_A4D6F8_AqarPress.Data.RelationClasses
 	/// <summary>Static class which is used for providing relationship instances which are re-used internally for syncing</summary>
 	internal static class StaticProjectDiscussionRelations
 	{
+		internal static readonly IEntityRelation AttachmentEntityUsingProjectDiscussionIdStatic = new ProjectDiscussionRelations().AttachmentEntityUsingProjectDiscussionId;
 		internal static readonly IEntityRelation ProjectEntityUsingProjectIdStatic = new ProjectDiscussionRelations().ProjectEntityUsingProjectId;
 		internal static readonly IEntityRelation UserEntityUsingCommenterIdStatic = new ProjectDiscussionRelations().UserEntityUsingCommenterId;
 

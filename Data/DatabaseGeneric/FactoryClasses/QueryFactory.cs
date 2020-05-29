@@ -18,8 +18,14 @@ namespace DB_A4D6F8_AqarPress.Data.FactoryClasses
 	/// <summary>Factory class to produce DynamicQuery instances and EntityQuery instances</summary>
 	public partial class QueryFactory : QueryFactoryBase2
 	{
+		/// <summary>Creates and returns a new EntityQuery for the Ad entity</summary>
+		public EntityQuery<AdEntity> Ad { get { return Create<AdEntity>(); } }
+
 		/// <summary>Creates and returns a new EntityQuery for the Area entity</summary>
 		public EntityQuery<AreaEntity> Area { get { return Create<AreaEntity>(); } }
+
+		/// <summary>Creates and returns a new EntityQuery for the Attachment entity</summary>
+		public EntityQuery<AttachmentEntity> Attachment { get { return Create<AttachmentEntity>(); } }
 
 		/// <summary>Creates and returns a new EntityQuery for the Category entity</summary>
 		public EntityQuery<CategoryEntity> Category { get { return Create<CategoryEntity>(); } }

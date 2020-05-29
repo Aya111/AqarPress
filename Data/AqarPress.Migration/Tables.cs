@@ -2,6 +2,7 @@
 {
     public class Tables
     {
+        public const string Ad = "Ad";
         public const string Area = "Area";
         public const string Category = "Category";
         public const string Developer = "Developer";

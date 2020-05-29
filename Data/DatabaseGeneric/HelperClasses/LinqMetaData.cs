@@ -44,8 +44,12 @@ namespace DB_A4D6F8_AqarPress.Data.Linq
 		{
 			switch((DB_A4D6F8_AqarPress.Data.EntityType)typeOfEntity)
 			{
+				case DB_A4D6F8_AqarPress.Data.EntityType.AdEntity:
+					return this.Ad;
 				case DB_A4D6F8_AqarPress.Data.EntityType.AreaEntity:
 					return this.Area;
+				case DB_A4D6F8_AqarPress.Data.EntityType.AttachmentEntity:
+					return this.Attachment;
 				case DB_A4D6F8_AqarPress.Data.EntityType.CategoryEntity:
 					return this.Category;
 				case DB_A4D6F8_AqarPress.Data.EntityType.DeveloperEntity:
@@ -76,8 +80,14 @@ namespace DB_A4D6F8_AqarPress.Data.Linq
 			return new DataSource2<TEntity>(this.AdapterToUse, new ElementCreator(), this.CustomFunctionMappings, this.ContextToUse);
 		}
 
+		/// <summary>returns the datasource to use in a Linq query when targeting AdEntity instances in the database.</summary>
+		public DataSource2<AdEntity> Ad {	get { return new DataSource2<AdEntity>(this.AdapterToUse, new ElementCreator(), this.CustomFunctionMappings, this.ContextToUse); } }
+		
 		/// <summary>returns the datasource to use in a Linq query when targeting AreaEntity instances in the database.</summary>
 		public DataSource2<AreaEntity> Area {	get { return new DataSource2<AreaEntity>(this.AdapterToUse, new ElementCreator(), this.CustomFunctionMappings, this.ContextToUse); } }
+		
+		/// <summary>returns the datasource to use in a Linq query when targeting AttachmentEntity instances in the database.</summary>
+		public DataSource2<AttachmentEntity> Attachment {	get { return new DataSource2<AttachmentEntity>(this.AdapterToUse, new ElementCreator(), this.CustomFunctionMappings, this.ContextToUse); } }
 		
 		/// <summary>returns the datasource to use in a Linq query when targeting CategoryEntity instances in the database.</summary>
 		public DataSource2<CategoryEntity> Category {	get { return new DataSource2<CategoryEntity>(this.AdapterToUse, new ElementCreator(), this.CustomFunctionMappings, this.ContextToUse); } }

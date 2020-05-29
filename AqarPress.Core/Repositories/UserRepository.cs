@@ -1,7 +1,9 @@
 ﻿using DB_A4D6F8_AqarPress.Data.EntityClasses;
 using DB_A4D6F8_AqarPress.Data.Linq;
+using SD.LLBLGen.Pro.LinqSupportClasses;
 using Serilog;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Helpers;
 using View.DtoClasses;
@@ -64,6 +66,27 @@ namespace AqarPress.Core.Repositories
                     return Result<bool>.False(ex);
                 }
             };
+        }
+
+        public async Task<Result<bool>> IsTheMobileNumberExisted(string mobileNumber)
+        {
+            using (var adapter = Adapter.Create())
+            {
+                try
+                {
+
+                    var meta = new LinqMetaData(adapter);
+
+                    var existed = await meta.User.AnyAsync(u => u.MobilePhone == mobileNumber);
+
+                    return Result<bool>.True(existed);
+                }
+                catch(Exception ex)
+                {
+                    Log.Error(ex, string.Empty);
+                    return Result<bool>.False();
+                }
+            }
         }
     }
 }

@@ -23,7 +23,7 @@ namespace AqarPress.web.Mobile.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Project>>> GetAll()
+        public async Task<ActionResult<List<Developer>>> GetAll()
         {
             var result = await _developerRepository.GetAll();
 

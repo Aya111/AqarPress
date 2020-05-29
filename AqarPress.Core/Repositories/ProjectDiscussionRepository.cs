@@ -44,12 +44,44 @@ namespace AqarPress.Core.Repositories
 
                     comment.CommenterName = session.User.Name;
 
+                    comment.CommenterMobile = session.User.MobilePhone;
+
                     return Result<ProjectComment>.True(comment);
                 }
             }
             catch (Exception ex)
             {
                 return Result<ProjectComment>.False(ex);
+            }
+        }
+
+        public async Task<Result<ProjectDiscussionAttachment>> AddAttachment(int projectDiscussionId, string path)
+        {
+            try
+            {
+                using (var adapter = Adapter.Create())
+                {
+                    var attachmentEntity = new AttachmentEntity
+                    {
+                        Path = path,
+                        ProjectDiscussionId = projectDiscussionId
+
+                    };
+
+                    var result = await adapter.SaveEntityAsync(attachmentEntity, true);
+
+                    var meta = new LinqMetaData(adapter);
+
+                    var attachmentModel = new ProjectDiscussionAttachment();
+                    attachmentModel.AttachmentId = attachmentEntity.Id;
+                    attachmentModel.ProjectDiscussionId = projectDiscussionId;
+
+                    return Result<ProjectDiscussionAttachment>.True(attachmentModel);
+                }
+            }
+            catch (Exception ex)
+            {
+                return Result<ProjectDiscussionAttachment>.False(ex);
             }
         }
     }

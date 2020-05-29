@@ -139,11 +139,28 @@
   <EntityModel>
     <ValueTypeDefinitions />
     <EntityDefinitions>
+      <EntityDefinition Name="Ad" ObjectID="1d95f986-89a3-4681-b327-711c43dfdcb8">
+        <Fields>
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="IsActive" Type="bool" IsOptional="true" />
+          <Field Name="Name" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Path" Type="string" IsOptional="true" MaxLength="100" />
+          <Field Name="RedirectUrl" Type="string" IsOptional="true" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
       <EntityDefinition Name="Area" ObjectID="94f2911f-942e-453f-b8fa-cc311524224f">
         <Fields>
           <Field Name="ArabicName" Type="string" MaxLength="500" />
           <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
           <Field Name="Name" Type="string" MaxLength="500" />
+        </Fields>
+      </EntityDefinition>
+      <EntityDefinition Name="Attachment" ObjectID="814ae2ac-0c5a-4cc0-865a-29238f3880ce">
+        <Fields>
+          <Field Name="Comment" Type="string" IsOptional="true" MaxLength="500" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="Path" Type="string" MaxLength="100" />
+          <Field Name="ProjectDiscussionId" Type="int" IsOptional="true" Precision="10" />
         </Fields>
       </EntityDefinition>
       <EntityDefinition Name="Category" ObjectID="ac6744c9-5b5d-4c7e-bf60-0dde4369e17d">
@@ -179,7 +196,7 @@
           <Field Name="CommenterId" Type="int" Precision="10" />
           <Field Name="DateCreated" Type="datetime" />
           <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
-          <Field Name="MessageBody" Type="string" MaxLength="500" />
+          <Field Name="MessageBody" Type="string" IsOptional="true" MaxLength="500" />
           <Field Name="ProjectId" Type="int" Precision="10" />
         </Fields>
       </EntityDefinition>
@@ -217,6 +234,11 @@
       </EntityDefinition>
     </EntityDefinitions>
     <Relationships>
+      <NormalRelationship Name="Attachment.ProjectDiscussion-ProjectDiscussion.Attachments" Start=":Attachment" End=":ProjectDiscussion" StartNavigator="ProjectDiscussion" EndNavigator="Attachments" Type="4" EndIsOptional="true">
+        <FieldRelationships>
+          <FieldFieldRelationship FkField="ProjectDiscussionId" PkField="Id" />
+        </FieldRelationships>
+      </NormalRelationship>
       <NormalRelationship Name="Project.Category-Category.Projects" Start=":Project" End=":Category" StartNavigator="Category" EndNavigator="Projects" Type="4">
         <FieldRelationships>
           <FieldFieldRelationship FkField="CategoryId" PkField="Id" />
@@ -271,14 +293,33 @@
       <Catalogs>
         <Catalog Name="DB_A4D6F8_AqarPress">
           <Schemas>
-            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2019-09-07T18:21:23.666927Z">
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2020-04-18T12:30:35.8501358Z">
               <Tables>
+                <Table Name="Ad">
+                  <PkConstraintName Name="PK__Ad__3213E83F76962AEC" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="NAME" Ordinal="2" IsOptional="true" DbType="12" Length="500" />
+                    <Field Name="redirect_url" Ordinal="3" IsOptional="true" DbType="12" Length="500" />
+                    <Field Name="path" Ordinal="4" IsOptional="true" DbType="12" Length="100" />
+                    <Field Name="is_active" Ordinal="5" IsOptional="true" HasDefaultValue="true" DefaultValue="(1)" DbType="2" />
+                  </Fields>
+                </Table>
                 <Table Name="Area">
                   <PkConstraintName Name="PK_Area" />
                   <Fields>
                     <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
                     <Field Name="name" Ordinal="2" DbType="12" Length="500" />
                     <Field Name="arabic_name" Ordinal="3" DbType="12" Length="500" />
+                  </Fields>
+                </Table>
+                <Table Name="Attachments">
+                  <PkConstraintName Name="PK__Attachme__3213E83F4A10AC7E" />
+                  <Fields>
+                    <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
+                    <Field Name="path" Ordinal="2" DbType="12" Length="100" />
+                    <Field Name="project_discussion_id" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                    <Field Name="comment" Ordinal="4" IsOptional="true" DbType="12" Length="500" />
                   </Fields>
                 </Table>
                 <Table Name="Category">
@@ -316,7 +357,7 @@
                   <PkConstraintName Name="PK_ProjectDiscussion" />
                   <Fields>
                     <Field Name="id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" DbType="8" Precision="10" />
-                    <Field Name="message_body" Ordinal="2" DbType="12" Length="500" />
+                    <Field Name="message_body" Ordinal="2" IsOptional="true" DbType="12" Length="500" />
                     <Field Name="commenter_id" Ordinal="3" DbType="8" Precision="10" />
                     <Field Name="project_id" Ordinal="4" DbType="8" Precision="10" />
                     <Field Name="date_created" Ordinal="5" HasDefaultValue="true" DefaultValue="getutcdate()" DbType="4" />
@@ -362,6 +403,11 @@
             </Schema>
           </Schemas>
           <ForeignKeyConstraints>
+            <ForeignKeyConstraint Name="dbo:Attachments:FK__Attachmen__proje__542C7691">
+              <FieldPairs>
+                <FieldPair PkField="dbo:ProjectDiscussion:id" FkField="dbo:Attachments:project_discussion_id" />
+              </FieldPairs>
+            </ForeignKeyConstraint>
             <ForeignKeyConstraint Name="dbo:Project:FK_Project_category_id_Category_id">
               <FieldPairs>
                 <FieldPair PkField="dbo:Category:id" FkField="dbo:Project:category_id" />
@@ -405,11 +451,28 @@
   <MappingStores>
     <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
       <EntityMappings>
+        <EntityMapping EntityName=":Ad" TargetName="DB_A4D6F8_AqarPress:dbo:Ad">
+          <FieldMappings>
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="IsActive" TargetFieldName="is_active" />
+            <FieldMapping FieldName="Name" TargetFieldName="NAME" />
+            <FieldMapping FieldName="Path" TargetFieldName="path" />
+            <FieldMapping FieldName="RedirectUrl" TargetFieldName="redirect_url" />
+          </FieldMappings>
+        </EntityMapping>
         <EntityMapping EntityName=":Area" TargetName="DB_A4D6F8_AqarPress:dbo:Area">
           <FieldMappings>
             <FieldMapping FieldName="ArabicName" TargetFieldName="arabic_name" />
             <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
             <FieldMapping FieldName="Name" TargetFieldName="name" />
+          </FieldMappings>
+        </EntityMapping>
+        <EntityMapping EntityName=":Attachment" TargetName="DB_A4D6F8_AqarPress:dbo:Attachments">
+          <FieldMappings>
+            <FieldMapping FieldName="Comment" TargetFieldName="comment" />
+            <FieldMapping FieldName="Id" TargetFieldName="id" SequenceToUse="SCOPE_IDENTITY()" />
+            <FieldMapping FieldName="Path" TargetFieldName="path" />
+            <FieldMapping FieldName="ProjectDiscussionId" TargetFieldName="project_discussion_id" />
           </FieldMappings>
         </EntityMapping>
         <EntityMapping EntityName=":Category" TargetName="DB_A4D6F8_AqarPress:dbo:Category">
@@ -641,6 +704,26 @@
         </LastUsedPreferences>
       </CodeGenerationCyclePreferences>
       <Documents>
+        <Document Name="Ad">
+          <RootEntity Entity=":Ad" />
+          <Fields>
+            <Field Name="Id">
+              <EntityField Name="Id" />
+            </Field>
+            <Field Name="IsActive">
+              <EntityField Name="IsActive" />
+            </Field>
+            <Field Name="Name">
+              <EntityField Name="Name" />
+            </Field>
+            <Field Name="Path">
+              <EntityField Name="Path" />
+            </Field>
+            <Field Name="RedirectUrl">
+              <EntityField Name="RedirectUrl" />
+            </Field>
+          </Fields>
+        </Document>
         <Document Name="ProjectView">
           <RootEntity Entity=":Project" />
           <Fields>

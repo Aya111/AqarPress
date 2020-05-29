@@ -46,14 +46,12 @@ namespace AqarPress.Core
 
                     Log.Information("login result is {0}", result);
 
-                    bool userExist;
+                    bool userExist = true;
 
                     if (result == null)
                     {
                         userExist = false;
                     }
-
-                    userExist = true;
 
                     if (userExist == true)
                     {
@@ -85,6 +83,26 @@ namespace AqarPress.Core
             }
         }
 
+
+        public async Task<Result<APISession>> Register(UserView user)
+        {
+            using (var adapter = Adapter.Create())
+            {
+                try
+                {
+                    var createdUser = _userRepository.Create(user);
+
+                    var session = await AddSession(createdUser.Result);
+
+                    return Result<APISession>.True(session);
+                }
+                catch (Exception ex)
+                {
+                    Log.Error(ex, string.Empty);
+                    return Result<APISession>.False(ex.Message);
+                }
+            }
+        }
         //public async Task<Result<None>> ChangePassword(int userId, string oldPassword, string newPassword)
         //{
         //    var userExist = await Query.GetAsync(async meta =>

@@ -41,7 +41,9 @@ namespace DB_A4D6F8_AqarPress.Data.HelperClasses
 		private void Init()
 		{
 			this.InitClass();
+			InitAdEntityInfo();
 			InitAreaEntityInfo();
+			InitAttachmentEntityInfo();
 			InitCategoryEntityInfo();
 			InitDeveloperEntityInfo();
 			InitProjectEntityInfo();
@@ -53,6 +55,17 @@ namespace DB_A4D6F8_AqarPress.Data.HelperClasses
 			this.BuildInternalStructures();
 		}
 
+		/// <summary>Inits AdEntity's info objects</summary>
+		private void InitAdEntityInfo()
+		{
+			this.AddFieldIndexEnumForElementName(typeof(AdFieldIndex), "AdEntity");
+			this.AddElementFieldInfo("AdEntity", "Id", typeof(System.Int32), true, false, true, false,  (int)AdFieldIndex.Id, 0, 0, 10);
+			this.AddElementFieldInfo("AdEntity", "IsActive", typeof(Nullable<System.Boolean>), false, false, false, true,  (int)AdFieldIndex.IsActive, 0, 0, 0);
+			this.AddElementFieldInfo("AdEntity", "Name", typeof(System.String), false, false, false, true,  (int)AdFieldIndex.Name, 500, 0, 0);
+			this.AddElementFieldInfo("AdEntity", "Path", typeof(System.String), false, false, false, true,  (int)AdFieldIndex.Path, 100, 0, 0);
+			this.AddElementFieldInfo("AdEntity", "RedirectUrl", typeof(System.String), false, false, false, true,  (int)AdFieldIndex.RedirectUrl, 500, 0, 0);
+		}
+
 		/// <summary>Inits AreaEntity's info objects</summary>
 		private void InitAreaEntityInfo()
 		{
@@ -60,6 +73,16 @@ namespace DB_A4D6F8_AqarPress.Data.HelperClasses
 			this.AddElementFieldInfo("AreaEntity", "ArabicName", typeof(System.String), false, false, false, false,  (int)AreaFieldIndex.ArabicName, 500, 0, 0);
 			this.AddElementFieldInfo("AreaEntity", "Id", typeof(System.Int32), true, false, true, false,  (int)AreaFieldIndex.Id, 0, 0, 10);
 			this.AddElementFieldInfo("AreaEntity", "Name", typeof(System.String), false, false, false, false,  (int)AreaFieldIndex.Name, 500, 0, 0);
+		}
+
+		/// <summary>Inits AttachmentEntity's info objects</summary>
+		private void InitAttachmentEntityInfo()
+		{
+			this.AddFieldIndexEnumForElementName(typeof(AttachmentFieldIndex), "AttachmentEntity");
+			this.AddElementFieldInfo("AttachmentEntity", "Comment", typeof(System.String), false, false, false, true,  (int)AttachmentFieldIndex.Comment, 500, 0, 0);
+			this.AddElementFieldInfo("AttachmentEntity", "Id", typeof(System.Int32), true, false, true, false,  (int)AttachmentFieldIndex.Id, 0, 0, 10);
+			this.AddElementFieldInfo("AttachmentEntity", "Path", typeof(System.String), false, false, false, false,  (int)AttachmentFieldIndex.Path, 100, 0, 0);
+			this.AddElementFieldInfo("AttachmentEntity", "ProjectDiscussionId", typeof(Nullable<System.Int32>), false, true, false, true,  (int)AttachmentFieldIndex.ProjectDiscussionId, 0, 0, 10);
 		}
 
 		/// <summary>Inits CategoryEntity's info objects</summary>
@@ -103,7 +126,7 @@ namespace DB_A4D6F8_AqarPress.Data.HelperClasses
 			this.AddElementFieldInfo("ProjectDiscussionEntity", "CommenterId", typeof(System.Int32), false, true, false, false,  (int)ProjectDiscussionFieldIndex.CommenterId, 0, 0, 10);
 			this.AddElementFieldInfo("ProjectDiscussionEntity", "DateCreated", typeof(System.DateTime), false, false, false, false,  (int)ProjectDiscussionFieldIndex.DateCreated, 0, 0, 0);
 			this.AddElementFieldInfo("ProjectDiscussionEntity", "Id", typeof(System.Int32), true, false, true, false,  (int)ProjectDiscussionFieldIndex.Id, 0, 0, 10);
-			this.AddElementFieldInfo("ProjectDiscussionEntity", "MessageBody", typeof(System.String), false, false, false, false,  (int)ProjectDiscussionFieldIndex.MessageBody, 500, 0, 0);
+			this.AddElementFieldInfo("ProjectDiscussionEntity", "MessageBody", typeof(System.String), false, false, false, true,  (int)ProjectDiscussionFieldIndex.MessageBody, 500, 0, 0);
 			this.AddElementFieldInfo("ProjectDiscussionEntity", "ProjectId", typeof(System.Int32), false, true, false, false,  (int)ProjectDiscussionFieldIndex.ProjectId, 0, 0, 10);
 		}
 

@@ -12,13 +12,13 @@
       "commandName": "IISExpress",
       "launchBrowser": false,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Production"
       }
     },
     "AqarPress.Web": {
       "commandName": "Project",
       "launchBrowser": false,
-      "applicationUrl": "http://192.168.1.10:5001;",
+      "applicationUrl": "http://192.168.1.12:5001;",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

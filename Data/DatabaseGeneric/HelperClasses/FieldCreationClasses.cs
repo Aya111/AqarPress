@@ -10,6 +10,21 @@ using SD.LLBLGen.Pro.ORMSupportClasses;
 
 namespace DB_A4D6F8_AqarPress.Data.HelperClasses
 {
+	/// <summary>Field Creation Class for entity AdEntity</summary>
+	public partial class AdFields
+	{
+		/// <summary>Creates a new AdEntity.Id field instance</summary>
+		public static EntityField2 Id { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AdFieldIndex.Id); }}
+		/// <summary>Creates a new AdEntity.IsActive field instance</summary>
+		public static EntityField2 IsActive { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AdFieldIndex.IsActive); }}
+		/// <summary>Creates a new AdEntity.Name field instance</summary>
+		public static EntityField2 Name { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AdFieldIndex.Name); }}
+		/// <summary>Creates a new AdEntity.Path field instance</summary>
+		public static EntityField2 Path { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AdFieldIndex.Path); }}
+		/// <summary>Creates a new AdEntity.RedirectUrl field instance</summary>
+		public static EntityField2 RedirectUrl { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AdFieldIndex.RedirectUrl); }}
+	}
+
 	/// <summary>Field Creation Class for entity AreaEntity</summary>
 	public partial class AreaFields
 	{
@@ -19,6 +34,19 @@ namespace DB_A4D6F8_AqarPress.Data.HelperClasses
 		public static EntityField2 Id { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AreaFieldIndex.Id); }}
 		/// <summary>Creates a new AreaEntity.Name field instance</summary>
 		public static EntityField2 Name { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AreaFieldIndex.Name); }}
+	}
+
+	/// <summary>Field Creation Class for entity AttachmentEntity</summary>
+	public partial class AttachmentFields
+	{
+		/// <summary>Creates a new AttachmentEntity.Comment field instance</summary>
+		public static EntityField2 Comment { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AttachmentFieldIndex.Comment); }}
+		/// <summary>Creates a new AttachmentEntity.Id field instance</summary>
+		public static EntityField2 Id { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AttachmentFieldIndex.Id); }}
+		/// <summary>Creates a new AttachmentEntity.Path field instance</summary>
+		public static EntityField2 Path { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AttachmentFieldIndex.Path); }}
+		/// <summary>Creates a new AttachmentEntity.ProjectDiscussionId field instance</summary>
+		public static EntityField2 ProjectDiscussionId { get { return ModelInfoProviderSingleton.GetInstance().CreateField2(AttachmentFieldIndex.ProjectDiscussionId); }}
 	}
 
 	/// <summary>Field Creation Class for entity CategoryEntity</summary>

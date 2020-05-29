@@ -66,6 +66,16 @@ namespace DB_A4D6F8_AqarPress.Data.FactoryClasses
 		protected override Type ForEntityType { get { return typeof(TEntity); } }
 	}
 
+	/// <summary>Factory to create new, empty AdEntity objects.</summary>
+	[Serializable]
+	public partial class AdEntityFactory : EntityFactoryBase2<AdEntity> 
+	{
+		/// <summary>CTor</summary>
+		public AdEntityFactory() : base("AdEntity", DB_A4D6F8_AqarPress.Data.EntityType.AdEntity, false) { }
+		/// <inheritdoc/>
+		protected override IEntity2 CreateImpl(IEntityFields2 fields) { return new AdEntity(fields); }
+	}
+
 	/// <summary>Factory to create new, empty AreaEntity objects.</summary>
 	[Serializable]
 	public partial class AreaEntityFactory : EntityFactoryBase2<AreaEntity> 
@@ -74,6 +84,16 @@ namespace DB_A4D6F8_AqarPress.Data.FactoryClasses
 		public AreaEntityFactory() : base("AreaEntity", DB_A4D6F8_AqarPress.Data.EntityType.AreaEntity, false) { }
 		/// <inheritdoc/>
 		protected override IEntity2 CreateImpl(IEntityFields2 fields) { return new AreaEntity(fields); }
+	}
+
+	/// <summary>Factory to create new, empty AttachmentEntity objects.</summary>
+	[Serializable]
+	public partial class AttachmentEntityFactory : EntityFactoryBase2<AttachmentEntity> 
+	{
+		/// <summary>CTor</summary>
+		public AttachmentEntityFactory() : base("AttachmentEntity", DB_A4D6F8_AqarPress.Data.EntityType.AttachmentEntity, false) { }
+		/// <inheritdoc/>
+		protected override IEntity2 CreateImpl(IEntityFields2 fields) { return new AttachmentEntity(fields); }
 	}
 
 	/// <summary>Factory to create new, empty CategoryEntity objects.</summary>
@@ -203,8 +223,12 @@ namespace DB_A4D6F8_AqarPress.Data.FactoryClasses
 		{
 			switch(typeOfEntity)
 			{
+				case DB_A4D6F8_AqarPress.Data.EntityType.AdEntity:
+					return new AdEntityFactory();
 				case DB_A4D6F8_AqarPress.Data.EntityType.AreaEntity:
 					return new AreaEntityFactory();
+				case DB_A4D6F8_AqarPress.Data.EntityType.AttachmentEntity:
+					return new AttachmentEntityFactory();
 				case DB_A4D6F8_AqarPress.Data.EntityType.CategoryEntity:
 					return new CategoryEntityFactory();
 				case DB_A4D6F8_AqarPress.Data.EntityType.DeveloperEntity:

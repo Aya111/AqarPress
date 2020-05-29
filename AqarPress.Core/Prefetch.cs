@@ -24,6 +24,7 @@ namespace AqarPress.Core
                 SD.LLBLGen.Pro.ORMSupportClasses.IPrefetchPath2 path = new SD.LLBLGen.Pro.ORMSupportClasses.PrefetchPath2((int)EntityType.ProjectDiscussionEntity);
 
                 path.Add(ProjectDiscussionEntity.PrefetchPathUser);
+                path.Add(ProjectDiscussionEntity.PrefetchPathAttachments);
 
                 return path;
             }

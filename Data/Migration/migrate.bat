@@ -5,7 +5,7 @@ if "%1" == "" goto migrate
 goto error
 
 :migrate
-migrate -db SqlServer2014 -connection "Server=.;Database=AqarPress;Integrated Security=True;" -assembly "AqarPress.Migration.dll"
+dotnet fm migrate -p SqlServer2014 -c "Server=.;Database=AqarPress;Integrated Security=True;" -a "F:\Projects\AqarPress-Git\Data\AqarPress.Migration\bin\Release\AqarPress.Migration.dll"
 goto done
 
 :rollback
